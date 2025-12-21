@@ -49,7 +49,7 @@
   "Expertise": {
     "title": "Warum ein spezialisiertes Ingenieurbüro?",
     "text_1": "Standard-Softwareentwickler stoßen an ihre Grenzen, wenn physikalisches Verständnis und elektrotechnisches Know-how gefragt sind.",
-    "text_2": "Bei <strong>Research Control</strong> erhalten Sie nicht nur sauberen Code, sondern einen Partner, der versteht, was Ihre Messgeräte, Sensoren und Aktoren physikalisch leisten müssen. Ich verbinde moderne Softwarearchitektur (MVVM) mit harter Real-Time-Anforderung.",
+    "text_2": "Bei <strong>ResearchControl</strong> erhalten Sie nicht nur sauberen Code, sondern einen Partner, der versteht, was Ihre Messgeräte, Sensoren und Aktoren physikalisch leisten müssen. Ich verbinde moderne Softwarearchitektur (MVVM) mit harter Real-Time-Anforderung.",
     "list_1": "Tiefes Verständnis für Mess- und Regelungstechnik",
     "list_2": "Expertise in Laborautomatisierung",
     "list_3": "Individuelle Lösungen statt Baukasten-Software",
@@ -80,7 +80,7 @@
     "btn_send": "Jetzt Anfrage senden"
   },
   "Footer": {
-    "rights": "Research Control - Michael Hermann. Alle Rechte vorbehalten.",
+    "rights": "ResearchControl - Michael Hermann. Alle Rechte vorbehalten.",
     "imprint": "Impressum",
     "privacy": "Datenschutz"
   },

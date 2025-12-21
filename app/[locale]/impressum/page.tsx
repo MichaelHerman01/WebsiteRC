@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Impressum | Research Control',
-    description: 'Rechtliche Informationen und Impressum von Research Control - Michael Hermann.',
+    title: 'Impressum | ResearchControl',
+    description: 'Rechtliche Informationen und Impressum von ResearchControl - Michael Hermann.',
 };
 
 export default function Impressum() {

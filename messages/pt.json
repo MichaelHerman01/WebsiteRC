@@ -80,7 +80,7 @@
         "btn_send": "Enviar Solicitação Agora"
     },
     "Footer": {
-        "rights": "Research Control - Michael Hermann. Todos os direitos reservados.",
+        "rights": "ResearchControl - Michael Hermann. Todos os direitos reservados.",
         "imprint": "Aviso Legal",
         "privacy": "Privacidade"
     },
@@ -95,7 +95,7 @@
     },
     "ReferencesSection": {
         "title": "Projetos de Sucesso com Líderes Tecnológicos",
-        "subtitle": "Há mais de 15 anos implemento soluções de software sofisticadas para líderes de mercado na indústria de semicondutores, tecnologia médica e indústria óptica. Aqui está um extrato dos meus parceiros de projeto:",
+        "subtitle": "Há mais de 15 anos, implemento soluções de software sofisticadas, para líderes de mercados, na indústria de semicondutores, tecnologia médica e indústria óptica. Veja aqui, alguns dos meus parceiros de projetos:",
         "footer": "* Logotipos de marcas servem como referência para projetos realizados."
     },
     "Faq": {
@@ -107,11 +107,11 @@
         "q2": "Quando um controle baseado em PC (App Windows) é melhor que uma solução puramente PLC?",
         "a2": "Uma <strong>aplicação .NET no Windows</strong> é a melhor escolha quando: <br/><br/><ul><li><strong>Alta flexibilidade</strong> é exigida</li><li><strong>Cálculos complexos</strong> são necessários</li><li><strong>Comunicação avançada</strong> com sistemas superiores é necessária</li><li><strong>Diversidade de dados</strong> prevalece</li>",
         "q3": "Você também oferece soluções híbridas de PC e PLC?",
-        "a3": "Sim, esse é um cenário muito comum. Controles críticos em tempo real são processados no PLC, enquanto a aplicação Windows atua como \"cérebro\" (coordenação, visualização, comunicação).",
-        "q4": "Você acompanha projetos apenas do lado do software ou oferece um serviço holístico?",
-        "a4": "Minha abordagem é holística. Acompanho você por todo o processo – da arquitetura e design, passando pelo planejamento de hardware e comissionamento, até o serviço de ciclo de vida.",
-        "q5": "Como é um projeto típico com você?",
-        "a5": "Um projeto ideal começa muitas vezes com uma ideia específica para uma máquina. Meu objetivo é \"dar vida a essa máquina\". Projeto a aplicação adequada e garanto uma integração perfeita."
+        "a3": "Sim, esse é um cenário muito comum. Controles críticos em tempo real, são processados no PLC, enquanto a aplicação Windows, atua como \"cérebro\" (coordenação, visualização e comunicação).",
+        "q4": "Você acompanha projetos, apenas do ponto de vista do software ou oferece um serviço mais holístico?",
+        "a4": "Minha abordagem é holística. Acompanho todo o processo – da arquitetura e design, passando pelo planejamento de hardware e comissionamento, até o serviço de ciclo de vida.",
+        "q5": "Como funciona um projeto típico, feito com você?",
+        "a5": "Um projeto ideal, começa muitas vezes com uma ideia específica, para uma máquina. Meu objetivo é \"dar vida a essa máquina\". Projeto a aplicação adequada e garanto uma integração perfeita."
     },
     "About": {
         "title_1": "Eu dou vida",
