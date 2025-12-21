@@ -112,7 +112,11 @@
         "a4": "Minha abordagem é holística. Acompanho todo o processo – da arquitetura e design, passando pelo planejamento de hardware e comissionamento, até o serviço de ciclo de vida.",
         "q5": "Como funciona um projeto típico, feito com você?",
         "a5": "Um projeto ideal, começa muitas vezes com uma ideia específica, para uma máquina. Meu objetivo é \"dar vida a essa máquina\". Projeto a aplicação adequada e garanto uma integração perfeita."
-    },
+		"q6": "Você pode dar exemplos específicos de sistemas de controle de PC bem-sucedidos?",
+		"a6": "Com certeza. Aqui estão dois exemplos que demonstram os pontos fortes de uma solução baseada em PC:<br/><br/><strong>1. Tecnologia de medição de ponta (Carl Zeiss AG):</strong><br/>Era necessária uma solução flexível para a medição complexa de um espelho côncavo utilizando laser. Como o método de medição só foi finalizado durante o projeto, um software ágil em .NET mostrou-se ideal. Ele lida com os cálculos matemáticos complexos (regressão de grau N), comunica-se com um CLP de segurança via OPC UA e gera relatórios certificados. O sistema opera de forma confiável há mais de 10 anos.<br/><br/><strong>2. Retrofit & Migration (TU Bergakademie):</strong><br/>Migração de um sistema de crescimento de cristais do Windows 95 para o Windows 11. Graças à boa documentação das interfaces RS232/RS485, o projeto foi concluído em apenas 5 semanas. O resultado: um software moderno e de fácil manutenção, que agora também pode ser desenvolvido por estudantes.",
+		"q7": "Qual é a tarifa horária ou o modelo de custo que devo esperar?",
+		"a7": "Meus honorários são flexíveis e justos:<br/><br/><ul><li><strong>Taxa horária:</strong> Dependendo da complexidade, duração e localização, o preço geralmente varia entre 65 e 100 euros.</li><li><strong>Preço fixo (preferencial):</strong>Para projetos bem definidos, tenho o prazer de oferecer um preço fixo. Isso lhe proporciona segurança no planejamento em relação ao orçamento e aos prazos.</li><li><strong>Para Start-ups:</strong>Tenho o prazer de apoiar ideias inovadoras com um modelo de pagamento flexível (por exemplo, 25% de entrada, com o restante pago após um ano).</li></ul><br/>O ideal é que discutamos seu projeto pessoalmente para encontrarmos o modelo certo."
+ },
     "About": {
         "title_1": "Eu dou vida",
         "title_2": "às máquinas.",
@@ -175,6 +179,11 @@
                 "content": "Se você entrar em contato conosco por e-mail ou formulário de contato, as informações fornecidas (por exemplo, nome, e-mail, conteúdo da mensagem) serão armazenadas para fins de processamento da solicitação e para o caso de dúvidas de acompanhamento. Não repassaremos esses dados sem o seu consentimento."
             }
         }
+	},
+	"StartupCta": {
+    "title": "Oferta para startups e ideias inovadoras",
+    "subtitle": "Você tem uma ideia visionária, mas seu orçamento é apertado? Nós apoiamos empresas jovens com um modelo de financiamento especial: pague apenas 25% inicialmente e comece já.",
+    "btn_text": "Mais sobre o modelo de startup"
     },
     "Metadata": {
         "title": "Automação PC e Software | Eng. Michael Hermann",
