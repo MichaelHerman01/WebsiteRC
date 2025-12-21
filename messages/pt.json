@@ -18,41 +18,41 @@
     },
     "Services": {
         "title": "Meu Perfil de Serviços",
-        "subtitle": "Soluções de software personalizadas na interface entre homem, máquina e física.",
+        "subtitle": "Soluções em software personalizados na interface entre homem, máquina e física.",
         "cards": {
             "gui": {
                 "title": "Interfaces de Usuário (GUI/HMI)",
-                "desc": "Desenvolvimento de interfaces de usuário modernas no Windows com C#, WPF e padrão MVVM. Para uma comunicação homem-máquina intuitiva."
+                "desc": "Desenvolvimento de interfaces de usuário modernas em ambiente Windows com C#, WPF e padrão MVVM, para uma comunicação homem-máquina intuitiva."
             },
             "data": {
                 "title": "Coleta de Dados Online",
-                "desc": "Registro e monitoramento confiáveis através de todas as interfaces comuns. Processamento de dados em tempo real para seus processos laboratoriais ou industriais."
+                "desc": "Registro e monitoramento confiáveis, através de todas as interfaces comuns. Processamento de dados em tempo real, para processos laboratoriais ou industriais."
             },
             "control": {
                 "title": "Controle & Regulação",
-                "desc": "Controle preciso de processos e regulação de parâmetros complexos. Do controle de temperatura a cadeias de processos complexas."
+                "desc": "Controle preciso de processos e regulação de parâmetros complexos. Do controle de temperatura à cadeias de processos complexas."
             },
             "hardware": {
                 "title": "Controle de Hardware",
-                "desc": "Controle direto de motores, acionamentos, válvulas e aquecedores. Integração perfeita de atuadores em seu ambiente de software."
+                "desc": "Controle direto de motores, acionamentos, válvulas e aquecedores. Integração perfeita de atuadores em ambiente de software."
             },
             "analysis": {
                 "title": "Análises & Cálculos",
-                "desc": "Implementação de avaliações físicas complexas e cálculos matemáticos exatamente de acordo com as especificações do cliente."
+                "desc": "Implementação de avaliações físicas complexas e cálculos matemáticos, exatamente de acordo com as especificações do cliente."
             },
             "commissioning": {
                 "title": "Concepção & Comissionamento",
-                "desc": "Suporte holístico: Da concepção ao comissionamento do hardware eletrônico e eletrotécnico conectado."
+                "desc": "Suporte holístico: Da concepção ao comissionamento do hardware, eletrônico e eletrotécnico, connectados."
             }
         }
     },
     "Expertise": {
         "title": "Por que um escritório de engenharia especializado?",
-        "text_1": "Desenvolvedores de software padrão atingem seus limites quando é necessário entendimento físico e know-how eletrotécnico.",
-        "text_2": "Na <strong>Research Control</strong>, você recebe não apenas código limpo, mas um parceiro que entende o que seus instrumentos de medição, sensores e atuadores devem realizar fisicamente. Combino arquitetura de software moderna (MVVM) com requisitos rígidos de tempo real.",
+        "text_1": "Desenvolvedores de software padrao, atingem seus limites, quando sao necessários, entedimento fìsico e know-how, eletrônicos.",
+        "text_2": "Na <strong>ResearchControl</strong>, você recebe não apenas código limpo, mas um parceiro que entende o que seus instrumentos de medição, sensores e atuadores devem realizar fisicamente. Combino arquitetura de software moderna (MVVM), com requisitos rígidos de tempo real.",
         "list_1": "Profundo entendimento de tecnologia de medição e controle",
         "list_2": "Expertise em automação laboratorial",
-        "list_3": "Soluções individuais em vez de software modular",
+        "list_3": "Soluções individuais, em vez de software modular",
         "btn_more": "Saiba mais",
         "stats": {
             "csharp": {
@@ -86,12 +86,12 @@
     },
     "VideoSection": {
         "title": "Automação Baseada em PC em Ação",
-        "subtitle": "Veja como o software moderno dá vida ao hardware. Do controle preciso à análise de dados complexa."
+        "subtitle": "Veja como o software moderno, dá vida ao hardware. Do controle preciso, à análise de dados complexos."
     },
     "GallerySection": {
         "label": "IMPRESSÕES",
         "title": "Visão do Mundo Técnico",
-        "subtitle": "Ambientes de alta tecnologia, salas limpas e máquinas complexas são meu ambiente de trabalho diário."
+        "subtitle": "Ambientes de alta tecnologia, salas limpas e máquinas complexas, são meu ambiente de trabalho, diário."
     },
     "ReferencesSection": {
         "title": "Projetos de Sucesso com Líderes Tecnológicos",
@@ -103,9 +103,9 @@
         "title": "Perguntas Frequentes sobre Automação Industrial",
         "subtitle": "Aqui você encontra respostas sobre soluções de software individuais para a indústria, controles baseados em PC e a integração de sistemas PLC.",
         "q1": "Qual é exatamente sua competência central na automação?",
-        "a1": "Meu foco é o desenvolvimento de <strong>aplicações Windows</strong> personalizadas que controlam, visualizam e registram processos industriais. Ao contrário de soluções padrão, ofereço software que intervém profundamente no controle da máquina. Isso inclui:<br/><br/><ul><li><strong>Controle de Sensores & Atuadores:</strong> Consulta direta de sensores e controle de motores.</li><li><strong>Integração de Interfaces:</strong> Comunicação com sistemas PLC via OPC UA ou gRPC.</li><li><strong>Gerenciamento de Dados:</strong> Registro e armazenamento de dados do processo.</li><li><strong>Configuração:</strong> Fornecimento de amplas opções de configuração.</li></ul>",
+        "a1": "Meu foco é o desenvolvimento de <strong>aplicações Windows</strong>, personalizadas, que controlam, visualizam e registram processos industriais. Ao contrário de soluções padrões, ofereço software, que intervém profundamente, no controle da máquina. Isso inclui:<br/><br/><ul><li><strong>Controle de Sensores & Atuadores:</strong> Consulta direta de sensores e controle de motores.</li><li><strong>Integração de Interfaces:</strong> Comunicação com sistemas PLC via OPC UA ou gRPC.</li><li><strong>Gerenciamento de Dados:</strong> Registro e armazenamento de dados do processo.</li><li><strong>Configuração:</strong> Fornecimento de amplas opções de configuração.</li></ul>",
         "q2": "Quando um controle baseado em PC (App Windows) é melhor que uma solução puramente PLC?",
-        "a2": "Uma <strong>aplicação .NET no Windows</strong> é a melhor escolha quando: <strong>Alta flexibilidade</strong> é exigida, <strong>Cálculos complexos</strong> são necessários, <strong>Comunicação avançada</strong> com sistemas superiores é necessária ou <strong>Diversidade de dados</strong> prevalece.",
+        "a2": "Uma <strong>aplicação .NET no Windows</strong> é a melhor escolha quando: <br/><br/><ul><li><strong>Alta flexibilidade</strong> é exigida</li><li><strong>Cálculos complexos</strong> são necessários</li><li><strong>Comunicação avançada</strong> com sistemas superiores é necessária</li><li><strong>Diversidade de dados</strong> prevalece</li>",
         "q3": "Você também oferece soluções híbridas de PC e PLC?",
         "a3": "Sim, esse é um cenário muito comum. Controles críticos em tempo real são processados no PLC, enquanto a aplicação Windows atua como \"cérebro\" (coordenação, visualização, comunicação).",
         "q4": "Você acompanha projetos apenas do lado do software ou oferece um serviço holístico?",

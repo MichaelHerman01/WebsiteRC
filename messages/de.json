@@ -26,7 +26,7 @@
       },
       "data": {
         "title": "Online-Datenerfassung",
-        "desc": "Zuverlässiges Logging und Monitoring über alle gängigen Schnittstellen. Echtzeit-Datenverarbeitung für Ihre Labor- oder Industrieprozesse."
+        "desc": "Zuverlässiges Logging und Monitoring über alle gängigen Schnittstellen. Echtzeit-Datenverarbeitung für Labor- oder Industrieprozesse."
       },
       "control": {
         "title": "Steuerung & Regelung",
@@ -34,7 +34,7 @@
       },
       "hardware": {
         "title": "Hardware Ansteuerung",
-        "desc": "Direkte Ansteuerung von Motoren, Antrieben, Ventilen und Heizungen. Nahtlose Integration von Aktoren in Ihre Softwareumgebung."
+        "desc": "Direkte Ansteuerung von Motoren, Antrieben, Ventilen und Heizungen. Nahtlose Integration von Aktoren in die Softwareumgebung."
       },
       "analysis": {
         "title": "Analysen & Berechnungen",
