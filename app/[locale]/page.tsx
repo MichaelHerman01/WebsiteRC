@@ -348,7 +348,7 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-phone text-brand-primary"></i>
                     </div>
-                    <span>+49 172 3714220</span>
+                    <span>+49 172 3714220 (Br: +55 (81) 98689-3574)</span>
                   </div>
                   <div className="flex items-center gap-4 text-slate-300 hover:text-brand-primary transition-colors cursor-pointer group">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
@@ -360,7 +360,7 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-location-dot text-brand-primary"></i>
                     </div>
-                    <span>Seesiedlung 14, 17252 Mirow</span>
+                    <span>Seesiedlung 14, 17252 Mirow<br/>(Br: Rua Alfredo de Medeiros, Recipe, CEP: 52021-030)</span>
                   </div>
                 </div>
               </div>
