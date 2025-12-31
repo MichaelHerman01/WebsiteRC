@@ -29,7 +29,7 @@ export default function Impressum() {
                         <h2 className="text-xl font-bold text-slate-900 mb-4">Kontakt</h2>
                         <p className="space-y-2">
                             <span className="block">
-                                <strong>Telefon:</strong> +49 172 3714220
+                                <strong>Telefon:</strong> +49 15679 751053
                             </span>
                             <span className="block">
                                 <strong>E-Mail:</strong> <a href="mailto:hermann@researchcontrol.de" className="text-brand-primary hover:underline">hermann@researchcontrol.de</a>

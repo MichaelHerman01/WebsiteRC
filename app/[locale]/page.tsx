@@ -348,7 +348,7 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-phone text-brand-primary"></i>
                     </div>
-                    <span>+49 172 3714220<br/>+55 (81) 98689 3574</span>
+                    <span>+49 15679 751053<br/>+55 (81) 98689 3574</span>
                   </div>
                   <div className="flex items-center gap-4 text-slate-300 hover:text-brand-primary transition-colors cursor-pointer group">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
