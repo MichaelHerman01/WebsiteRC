@@ -23,7 +23,7 @@ export default function PrivacyPage() {
                             Michael Hermann<br />
                             ResearchControl<br />
                             Seesiedlung 14<br />
-                            17252 Mirow<br />
+                            17252 Mirow, Mecklenburg-Vorpommern<br />
                             Deutschland
                         </p>
                         <p className="mt-4">

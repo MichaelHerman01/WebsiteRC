@@ -360,7 +360,7 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-location-dot text-brand-primary"></i>
                     </div>
-                    <span>Seesiedlung 14, 17252 Mirow<br/>Rua Alfredo de Medeiros, Recife<br/>CEP: 52021-030</span>
+                    <span>Seesiedlung 14, 17252 Mirow<br/>Mecklenburg-Vorpommern<br/>Rua Alfredo de Medeiros, Recife<br/>Pernambuco<br/>CEP: 52021-030</span>
                   </div>
                 </div>
               </div>

@@ -21,7 +21,7 @@ export default function Impressum() {
                             Michael Hermann<br />
                             Research Control<br />
                             Seesiedlung 14<br />
-                            17252 Mirow
+                            17252 Mirow, Mecklenburg-Vorpommern
                         </p>
                     </section>
 
