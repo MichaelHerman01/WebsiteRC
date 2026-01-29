@@ -1,13 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
-    title: 'Impressum | Research Control',
-    description: 'Rechtliche Informationen und Impressum von Research Control - Michael Hermann.',
-=======
     title: 'Impressum | ResearchControl',
     description: 'Rechtliche Informationen und Impressum von ResearchControl - Michael Hermann.',
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
 };
 
 export default function Impressum() {
@@ -26,11 +21,7 @@ export default function Impressum() {
                             Michael Hermann<br />
                             Research Control<br />
                             Seesiedlung 14<br />
-<<<<<<< HEAD
-                            17252 Mirow
-=======
                             17252 Mirow, Mecklenburg-Vorpommern
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                         </p>
                     </section>
 
@@ -38,11 +29,7 @@ export default function Impressum() {
                         <h2 className="text-xl font-bold text-slate-900 mb-4">Kontakt</h2>
                         <p className="space-y-2">
                             <span className="block">
-<<<<<<< HEAD
-                                <strong>Telefon:</strong> +49 172 3714220
-=======
                                 <strong>Telefon:</strong> +49 15679 751053
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                             </span>
                             <span className="block">
                                 <strong>E-Mail:</strong> <a href="mailto:hermann@researchcontrol.de" className="text-brand-primary hover:underline">hermann@researchcontrol.de</a>

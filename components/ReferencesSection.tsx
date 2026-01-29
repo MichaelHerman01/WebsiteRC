@@ -1,10 +1,7 @@
 "use client";
 
 import Image from "next/image";
-<<<<<<< HEAD
-=======
 import { useState } from "react";
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
 import { useTranslations } from "next-intl";
 
 const references = [
@@ -76,10 +73,7 @@ const references = [
 
 export default function ReferencesSection() {
     const t = useTranslations('ReferencesSection');
-<<<<<<< HEAD
-=======
     const [isExpanded, setIsExpanded] = useState(false);
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
 
     return (
         <section id="referenzen" className="py-24 bg-slate-50 border-t border-slate-200">
@@ -121,8 +115,6 @@ export default function ReferencesSection() {
                     ))}
                 </div>
 
-<<<<<<< HEAD
-=======
                 <div className="mt-16 max-w-5xl mx-auto text-left">
                     <div className="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden relative group hover:border-brand-primary/30 transition-colors duration-300">
                         <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-200 group-hover:bg-brand-primary transition-colors duration-300"></div>
@@ -199,7 +191,6 @@ export default function ReferencesSection() {
                     </div>
                 </div>
 
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                 <p className="mt-12 text-sm text-slate-400 italic">
                     {t('footer')}
                 </p>

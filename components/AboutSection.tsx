@@ -91,11 +91,6 @@ export default function AboutSection() {
                             </div>
 
                             <div>
-<<<<<<< HEAD
-                                <p className="mb-4">
-                                    {t.rich('intro_text_3', { strong: (chunks) => <strong>{chunks}</strong> })}
-                                </p>
-=======
                                 <p className="mb-6">
                                     {t.rich('intro_text_3', { strong: (chunks) => <strong>{chunks}</strong> })}
                                 </p>
@@ -119,7 +114,6 @@ export default function AboutSection() {
                                         </div>
                                     </a>
                                 </div>
->>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                             </div>
                         </div>
                     </div>
