@@ -10,9 +10,16 @@ import AboutSection from "@/components/AboutSection";
 import StartupCtaSection from "@/components/StartupCtaSection";
 
 import { Link } from "@/navigation";
+<<<<<<< HEAD
 import { useTranslations } from "next-intl";
 
 export default function Home() {
+=======
+import { useTranslations, useLocale } from "next-intl";
+
+export default function Home() {
+  const locale = useLocale();
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
   const t = useTranslations('Hero');
   const tServices = useTranslations('Services');
   const tExpertise = useTranslations('Expertise');
@@ -348,8 +355,28 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-phone text-brand-primary"></i>
                     </div>
-                    <span>+49 15679 751053<br/>+55 (81) 98689 3574</span>
+<<<<<<< HEAD
+                    <span>+49 172 3714220</span>
                   </div>
+=======
+                    <span>
+                      {locale === 'de' ? '+49 15679 751053' : '+55 (81) 98689 3574'}
+                    </span>
+                  </div>
+
+                  <a
+                    href="https://wa.me/message/QEIBTNCK6OKXH1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 text-slate-300 hover:text-brand-primary transition-colors cursor-pointer group"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
+                      <i className="fa-brands fa-whatsapp text-brand-primary"></i>
+                    </div>
+                    <span>WhatsApp</span>
+                  </a>
+
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                   <div className="flex items-center gap-4 text-slate-300 hover:text-brand-primary transition-colors cursor-pointer group">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-envelope text-brand-primary"></i>
@@ -360,7 +387,17 @@ export default function Home() {
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center group-hover:bg-brand-primary/20">
                       <i className="fa-solid fa-location-dot text-brand-primary"></i>
                     </div>
-                    <span>Seesiedlung 14, 17252 Mirow<br/>Mecklenburg-Vorpommern<br/>Rua Alfredo de Medeiros, Recife<br/>Pernambuco<br/>CEP: 52021-030</span>
+<<<<<<< HEAD
+                    <span>Seesiedlung 14, 17252 Mirow</span>
+=======
+                    <span>
+                      {locale === 'de' ? (
+                        <>Seesiedlung 14, 17252 Mirow<br />Mecklenburg-Vorpommern</>
+                      ) : (
+                        <>Rua Alfredo de Medeiros, Recife<br />Pernambuco<br />CEP: 52021-030</>
+                      )}
+                    </span>
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                   </div>
                 </div>
               </div>

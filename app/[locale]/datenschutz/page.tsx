@@ -21,9 +21,15 @@ export default function PrivacyPage() {
                     <div className="bg-slate-50 p-6 rounded-lg border border-slate-100 mb-10">
                         <p className="font-bold text-slate-800">
                             Michael Hermann<br />
+<<<<<<< HEAD
+                            Research Control<br />
+                            Seesiedlung 14<br />
+                            17252 Mirow<br />
+=======
                             ResearchControl<br />
                             Seesiedlung 14<br />
                             17252 Mirow, Mecklenburg-Vorpommern<br />
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                             Deutschland
                         </p>
                         <p className="mt-4">
@@ -63,7 +69,11 @@ export default function PrivacyPage() {
             <footer className="bg-slate-900 border-t border-slate-800 py-12 text-slate-400 text-sm mt-12">
                 <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
                     <div>
+<<<<<<< HEAD
+                        &copy; {new Date().getFullYear()} Research Control - Michael Hermann.
+=======
                         &copy; {new Date().getFullYear()} ResearchControl - Michael Hermann.
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                     </div>
                 </div>
             </footer>

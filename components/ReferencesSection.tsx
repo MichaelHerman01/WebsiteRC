@@ -1,6 +1,10 @@
 "use client";
 
 import Image from "next/image";
+<<<<<<< HEAD
+=======
+import { useState } from "react";
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
 import { useTranslations } from "next-intl";
 
 const references = [
@@ -72,6 +76,10 @@ const references = [
 
 export default function ReferencesSection() {
     const t = useTranslations('ReferencesSection');
+<<<<<<< HEAD
+=======
+    const [isExpanded, setIsExpanded] = useState(false);
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
 
     return (
         <section id="referenzen" className="py-24 bg-slate-50 border-t border-slate-200">
@@ -113,6 +121,85 @@ export default function ReferencesSection() {
                     ))}
                 </div>
 
+<<<<<<< HEAD
+=======
+                <div className="mt-16 max-w-5xl mx-auto text-left">
+                    <div className="bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden relative group hover:border-brand-primary/30 transition-colors duration-300">
+                        <div className="absolute top-0 left-0 w-1.5 h-full bg-slate-200 group-hover:bg-brand-primary transition-colors duration-300"></div>
+                        <div className="p-8 md:p-10">
+                            <div className="flex flex-col md:flex-row gap-8">
+                                <div className="flex-shrink-0">
+                                    <div className="w-20 h-20 rounded-xl bg-white border border-slate-100 shadow-sm flex items-center justify-center p-3 relative">
+                                        <Image
+                                            src="/TUBAF_Logo.svg.png"
+                                            alt="TU Bergakademie Freiberg"
+                                            fill
+                                            className="object-contain p-2"
+                                            sizes="80px"
+                                        />
+                                    </div>
+                                </div>
+                                <div className="flex-1">
+                                    <div className="flex flex-col h-full justify-between">
+                                        <div>
+                                            <div className="flex items-center gap-3 mb-3">
+                                                <span className="bg-brand-primary/10 text-brand-primary text-xs font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                                                    Migration & Modernisierung
+                                                </span>
+                                                <span className="text-slate-400 text-sm">VGF-Kristallzuchtanlage</span>
+                                            </div>
+
+                                            <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-4 leading-tight">
+                                                &quot;Die Migration der Software in eine moderne C# -basierte Windows-Applikation wurde sehr kurzfristig und zu unserer vollsten Zufriedenheit realisiert.&quot;
+                                            </h3>
+
+                                            <div className={`transition-all duration-500 ease-in-out overflow-hidden ${isExpanded ? 'max-h-[1000px] opacity-100 mt-6' : 'max-h-0 opacity-0'}`}>
+                                                <div className="prose prose-slate text-slate-600 max-w-none space-y-4 leading-relaxed bg-slate-50/50 p-6 rounded-xl border border-slate-100">
+                                                    <p>
+                                                        Im Kristallzüchtungslabor der TU Bergakademie Freiberg existiert seit vielen Jahren eine Ofenanlage zur Züchtung von Halbleiterkristallen nach dem Vertical Gradient Freeze (VGF-) Verfahren, die für Forschungs- und Ausbildungszwecke eingesetzt wird.
+                                                    </p>
+                                                    <p>
+                                                        Das VGF-Verfahren erfordert eine aufwändige Leistungs- und Temperaturregelung, die bisher von einem Windows 95-PC angesteuert wurde. Da bei dieser Konstellation durch den Ausfall des PC’s die Verfügbarkeit der Anlage gefährdet ist, benötigten wir eine Migration der Automatisierung auf einen modernen PC.
+                                                    </p>
+                                                    <p className="font-medium text-slate-800">
+                                                        Die modernisierte VGF-Anlage wurde in unserem Labor ausgiebig und erfolgreich getestet. Die neue Automatisierung entspricht dem neuesten Stand der Technik und gewährleistet eine zukunftssichere Ansteuerung unseres VGF-Ofens.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="mt-6 flex flex-wrap items-end justify-between gap-4 border-t border-slate-100 pt-6">
+                                            <div>
+                                                <cite className="not-italic font-bold text-slate-900 block text-lg">Dr. rer. nat. Olf Pätzold</cite>
+                                                <span className="text-sm text-slate-500 block">Institut für Nichteisenmetallurgie und Reinststoffe</span>
+                                                <span className="text-sm text-brand-primary font-medium">TU Bergakademie Freiberg</span>
+                                            </div>
+
+                                            <button
+                                                onClick={() => setIsExpanded(!isExpanded)}
+                                                className="group/btn flex items-center gap-2 text-slate-600 hover:text-brand-primary font-semibold transition-colors text-sm px-4 py-2 hover:bg-brand-primary/5 rounded-full"
+                                            >
+                                                {isExpanded ? (
+                                                    <>
+                                                        Weniger anzeigen
+                                                        <i className="fa-solid fa-chevron-up transition-transform group-hover/btn:-translate-y-0.5"></i>
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        Details zur Case Study
+                                                        <i className="fa-solid fa-chevron-down transition-transform group-hover/btn:translate-y-0.5"></i>
+                                                    </>
+                                                )}
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                 <p className="mt-12 text-sm text-slate-400 italic">
                     {t('footer')}
                 </p>

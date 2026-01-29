@@ -91,9 +91,35 @@ export default function AboutSection() {
                             </div>
 
                             <div>
+<<<<<<< HEAD
                                 <p className="mb-4">
                                     {t.rich('intro_text_3', { strong: (chunks) => <strong>{chunks}</strong> })}
                                 </p>
+=======
+                                <p className="mb-6">
+                                    {t.rich('intro_text_3', { strong: (chunks) => <strong>{chunks}</strong> })}
+                                </p>
+
+                                <div className="mt-8 pt-8 border-t border-slate-100">
+                                    <a
+                                        href="/entwicklerprofil_202602.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-4 px-6 py-4 bg-slate-50 hover:bg-white border border-slate-200 hover:border-brand-primary/30 rounded-xl transition-all duration-300 shadow-sm hover:shadow-md group"
+                                    >
+                                        <div className="w-12 h-12 rounded-lg bg-white border border-slate-100 flex items-center justify-center text-red-500 shadow-sm group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                                            <i className="fa-solid fa-file-pdf text-2xl"></i>
+                                        </div>
+                                        <div className="flex flex-col text-left">
+                                            <span className="text-xs text-slate-500 uppercase tracking-wider font-bold mb-0.5">PDF Download</span>
+                                            <span className="font-bold text-slate-900 group-hover:text-brand-primary transition-colors">Entwicklerprofil / CV 2026</span>
+                                        </div>
+                                        <div className="ml-4 w-8 h-8 rounded-full bg-slate-200 group-hover:bg-brand-primary group-hover:text-white flex items-center justify-center transition-all duration-300">
+                                            <i className="fa-solid fa-download text-sm"></i>
+                                        </div>
+                                    </a>
+                                </div>
+>>>>>>> a80f2c38eb5d65fae8050f0095a5e20c548621ca
                             </div>
                         </div>
                     </div>
