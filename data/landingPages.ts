@@ -118,7 +118,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/microscope-analysis.png",
         keywords: ["Laborautomatisierung", "LabVIEW Alternative", "Photonik", "Jena", "Messtechnik", "Bildverarbeitung", "Präzisions Sensoren", "Präzisions Antriebe", "C#"],
         metaDescription: "Softwareentwicklung für Laborgeräte und Optik in Jena. Ich ersetze komplexe LabVIEW-Projekte durch wartbare C# / .NET Lösungen. Jetzt beraten lassen.",
-        introText: "Jena ist das weltweite Zentrum für Optik und Photonik. Hier entstehen Geräte, die an die Grenzen der Physik gehen. Doch oft hält die Software nicht mit der Qualität der Hardware mit. Viele Projekte stecken in unwartbaren 'Spaghetti-Code' Strukturen fest. Ich helfe High-Tech Unternehmen in Thüringen, ihre exzellente Hardware mit ebenso exzellenter, professioneller Software auszustatten – skalierbar, wartbar und benutzerfreundlich.",
+        introText: "Jena ist das weltweite Zentrum für Optik und Photonik. Hier entstehen Geräte, die an die Grenzen der Physik gehen. Doch oft hält die Software nicht mit der Qualität der Hardware mit. Viele Projekte stecken in unwartbaren 'Spaghetti-Code' Strukturen fest. Ich helfe High-Tech Unternehmen in Thüringen, ihre exzellente Hardware mit ebenso exzellenter, professioneller Software auszustatten – skalierbar, wartbar und benutzerfreundlich - und ich durfte schon etliche Jahre in Jena bei der Carl-Zeiss AG und der LIS Gmbh (KLA-Tencor) meinen Beitrag für eine qualitativ hochwertige Softwarebasis leisten.",
         sections: [
             {
                 title: "Intelligente Gerätesteuerung: Mehr als nur Treiber",
@@ -168,11 +168,15 @@ export const landingPages: Record<string, LandingPageData> = {
             },
             {
                 title: "Jahrzehntelange Erfahrung in Hardware Anbindung",
-                description: "Ich habe jahrzentelange Erfahrung in Hardware-Anbindung und für sehr viele Hersteller schon Sensoren oder Antriebe angebunden (oft ohne Treibernutzung, was deutlich zuverlässiger ist). Zum Bespiel: Motoren/Antriebe von PI, Physical Instruments, PI-Micos, Newport, Faulhaber, Mitsubishi, Aerotec, Galil, Smaract, Maxon, Acs,  Sensoren von: Almemo, National Instruments, Keyence, Keithley, Thorlabs, Ophir, Kameras von Dalsa, Matrox (MIL) Basler, Dataray, Hamamatsu, Laser: Kohaerent, Newport, Steuerungen: Philips, Beckhoff, ADAM, Pilz, Siemens, ThermoSientific, Keysight.",
+                description: "Ich habe jahrzentelange Erfahrung in Hardware-Anbindung und für sehr viele Hersteller schon Sensoren oder Antriebe angebunden (oft ohne Treibernutzung, was deutlich zuverlässiger ist).",
                 icon: "fa-database"
             }
         ],
         faq: [
+            {
+                question: "Wie aufwendig ist es eine neue Hardware anzubinden?",
+                answer: "Auf Grund meiner jahrzehntelangen Erfahrung in der Anbindung von Hardware, ist der Aufwand im allgemeinen serh gering. Ich hsbe schon mit folgenden Hardware Anbindung in C#/.Net Erfahrungen gesammelt: Motoren/Antriebe von PI, Physical Instruments, PI-Micos, Newport, Faulhaber, Mitsubishi, Aerotec, Galil, Smaract, Maxon, Acs,  Sensoren von: Almemo, National Instruments, Keyence, Keithley, Thorlabs, Ophir, Kameras von Dalsa, Matrox (MIL) Basler, Dataray, Hamamatsu, Laser: Kohaerent, Newport, Steuerungen: Philips, Beckhoff, ADAM, Pilz, Siemens, ThermoSientific, Keysight. "
+            },
             {
                 question: "Warum C# statt Python?",
                 answer: "Python ist super für Skripte. Aber für robuste GUI-Anwendungen, Hardware-Treiber und Multithreading bietet C# / .NET eine stabilere, typsichere Umgebung und einfacheres Deployment beim Kunden."
