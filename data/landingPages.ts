@@ -37,10 +37,10 @@ export const landingPages: Record<string, LandingPageData> = {
     "dresden": {
         slug: "softwareentwicklung-semiconductor-dresden",
         title: "Spezialisierte C# Softwareentwicklung für die Halbleiterindustrie in Dresden",
-        subtitle: "Von der Wafer-Steuerung bis zur SECS/GEM Schnittstelle: Maßgeschneiderte .NET Lösungen, die den Takt im Silicon Saxony vorgeben.",
+        subtitle: "Vom Wafer-Handling-Roboter bis zur MES-Schnittstelle: Maßgeschneiderte .NET Lösungen, die den Takt im Silicon Saxony vorgeben.",
         heroImage: "/images/cleanroom-robot.png",
-        keywords: ["Semiconductor", "Automatisierungstechnik", "C#", ".NET", "SECS/GEM", "Dresden", "Equipment Control", "OHT", "Reinraum Software", "Wafer Handling"],
-        metaDescription: "Senior C# Entwickler für Semiconductor in Dresden. Spezialist für Equipment Control, SECS/GEM, Wafer-Handling und Reinraum-Automatisierung. Jetzt Projekt anfragen.",
+        keywords: ["Semiconductor", "Automatisierungstechnik", "C#", ".NET", "OPC UA", "Dresden", "Equipment Control", "Reinraum Software", "Wafer Handling"],
+        metaDescription: "Senior C# Entwickler für Semiconductor in Dresden. Spezialist für Equipment Control, OPC UA, Wafer-Handling und Reinraum-Automatisierung. Jetzt Projekt anfragen.",
         introText: "Im Herzen des 'Silicon Saxony' gelten keine Kompromisse. Davon kann ich aus eigener Erfahrung berichten. Ich durfte bereits gemeinsam mit den Ingenieuren von der Freiberger Compound Materials GmbH die Software und die Automatisierungstechnik für einige Sondermaschinen für den harten Produktionseinsatz entwickeln und bei der Infineon AG im Dresdner Norden das MES-System für die Produktionssteuerung weiterentwickeln. Seitdem weiss ich: die Halbleiterfertigung ist die Königsklasse der Automatisierung: Nanometer-Präzision, Prozesse, die an die Grenzen des physikalisch machbaren gehen, 24/7-Verfügbarkeit und Reinraum-Klassen, die keinen Fehler verzeihen. Als spezialisierter Software-Ingenieur verstehe ich nicht nur Code, sondern auch die Physik Ihrer Prozesse. Ob in Dresden-Nord, Freiberg oder Chemnitz – ich liefere Software, die auf einem tiefen Verständis ihrer Prozesse basiert.",
         sections: [
             {
@@ -116,7 +116,7 @@ export const landingPages: Record<string, LandingPageData> = {
         title: "Laborautomatisierung & Photonik: Maßgeschneiderte Software für Jena & Thüringen",
         subtitle: "Vom Labortisch zum marktreifen Produkt. Hochperformante Windows-Anwendungen für Analyse, optische Inspektion und Gerätesteuerung.",
         heroImage: "/images/microscope-analysis.png",
-        keywords: ["Laborautomatisierung", "LabVIEW Alternative", "Photonik", "Jena", "Messtechnik", "Bildverarbeitung", "LIMS Anbindung", "C#"],
+        keywords: ["Laborautomatisierung", "LabVIEW Alternative", "Photonik", "Jena", "Messtechnik", "Bildverarbeitung", "Präzisions Sensoren", "Präzisions Antriebe", "C#"],
         metaDescription: "Softwareentwicklung für Laborgeräte und Optik in Jena. Ich ersetze komplexe LabVIEW-Projekte durch wartbare C# / .NET Lösungen. Jetzt beraten lassen.",
         introText: "Jena ist das weltweite Zentrum für Optik und Photonik. Hier entstehen Geräte, die an die Grenzen der Physik gehen. Doch oft hält die Software nicht mit der Qualität der Hardware mit. Viele Projekte stecken in unwartbaren 'Spaghetti-Code' Strukturen fest. Ich helfe High-Tech Unternehmen in Thüringen, ihre exzellente Hardware mit ebenso exzellenter, professioneller Software auszustatten – skalierbar, wartbar und benutzerfreundlich.",
         sections: [
@@ -132,13 +132,13 @@ export const landingPages: Record<string, LandingPageData> = {
                 }
             },
             {
-                title: "Big Data im Labor: Analyse in Echtzeit",
-                content: "<p>Moderne Sensoren liefern Daten im Gigabyte-Bereich. Herkömmliche Tools wie Excel kapitulieren hier sofort. Ich integriere Hochleistungs-Bibliotheken (wie OpenCV, SciChart oder ILNumerics), um Spektren, Kamerabilder oder Messkurven <strong>in Echtzeit</strong> darzustellen und auszuwerten.</p><p><strong>Beispiel Workflow:</strong></p><ul class='list-disc pl-5 mt-4 space-y-2'><li>Triggerung der Kamera (Hardware-Sync).</li><li>Bildaufnahme und Transfer in den RAM (Zero-Copy).</li><li>Sofortige Analyse (z.B. Partikelzählung) noch im Speicher.</li><li>Speicherung nur der Ergebnisse + Metadaten in einer Datenbank (SQL/NoSQL).</li></ul>",
+                title: "Vom Labor in die Produktion: Analyse in Echtzeit",
+                content: "<p>Moderne Sensoren liefern Daten im Gigabyte-Bereich. Herkömmliche Tools wie Excel sind absolut untauglich für den Produktionseinsatz. Ich setze ihren Laborablauf in eine Produktionsreife sichere Software mit übersichtlicher und einfacher Bedienerführung (GUI, HMI, UX) um, damit Spektren, Kamerabilder oder Messkurven <strong>in Echtzeit</strong> protokolliert, ausgewertet und dargestellt werden.</p><p><strong>Beispiel Workflow:</strong></p><ul class='list-disc pl-5 mt-4 space-y-2'><li>Triggerung der Kamera (Hardware-Sync).</li><li>Bildaufnahme und Transfer in den RAM (Zero-Copy).</li><li>Sofortige Analyse (z.B. Partikelzählung) noch im Speicher.</li><li>Speicherung nur der Ergebnisse + Metadaten in einer Datenbank (SQL/NoSQL).</li></ul>",
                 infographic: "/images/microscope-analysis.png",
                 infographicAlt: "Monitor zeigt Software für Zellanalyse und Heatmaps"
             },
             {
-                title: "Qualitätssicherung & Validierung (GxP)",
+                title: "Qualitätssicherung & Validierung",
                 content: "<p>Besonders in der Medizintechnik und Pharma-Forschung reicht 'funktioniert' nicht aus. Software muss dokumentiert, getestet und validierbar sein (FDA 21 CFR Part 11). Ich implementiere Features wie <strong>Audit Trails</strong> (wer hat wann was geändert), Benutzer-Rollenmanagement und manipulationssichere Datenspeicherung. Damit wird aus einem Labor-Prototypen ein zertifizierfähiges Produkt.</p>",
                 infographic: "/images/lab-automation-infographic.png",
                 infographicAlt: "Grafische Darstellung von Labor-Robotik"
@@ -182,7 +182,7 @@ export const landingPages: Record<string, LandingPageData> = {
             },
             {
                 question: "Wie läuft die Zusammenarbeit?",
-                answer: "Ich integriere mich in Ihr Team (Jira, Git) oder liefere komplette Gewerk-Lösungen. Regelmäßige Demos stellen sicher, dass wir in die richtige Richtung entwickeln."
+                answer: "Ich integriere mich in Ihr Team (Scrum, Azure DevOps, Jira, Git) oder liefere komplette Gewerk-Lösungen. Regelmäßige Demos stellen sicher, dass wir in die richtige Richtung entwickeln."
             }
         ]
     },
