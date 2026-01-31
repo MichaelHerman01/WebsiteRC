@@ -148,10 +148,11 @@ export const landingPages: Record<string, LandingPageData> = {
             title: "Entwicklungs-Phasen & Mehrwert",
             headers: ["Phase", "Typische Probleme", "Meine Lösung"],
             rows: [
-                ["Prototyping", "Skripte sind langsam, UI fehlt", "Schnelle WPF-GUIs, Scripting-Engine integriert"],
-                ["Produktiv-Nutzung", "Abstürze, Datenchaos (CSV-Dateien)", "Robuste Architektur, Datenbank-Integration (SQL)"],
-                ["Skalierung / Serie", "Lizenzkosten (LabVIEW/Matlab)", "Royalty-Free Deployment (.NET), Installer-Erstellung"],
-                ["Support", "Wissen nur im Kopf des Entwicklers", "Clean Code, Dokumentation, Unit Tests"]
+                ["Prototyping", "UI rudimentär, langsam oder fehlt ganz", "Schnelle WPF-GUIs, Scripting-Engine integriert"],
+                ["Prototyping", "SPS-Programm oder Windows-App unflexibel, nicht erweiterbar", "Flexibel, beliebig erweiterbar und Übersichtlich durch MVVM-Entwurfsmuster"],
+                ["Produktiv-Nutzung", "Abstürze, Datenchaos (CSV-Dateien)", "Robuste, leichte und übersichtliche MVVM-Architektur, Verzicht auf überbordende Frameworks"],
+                ["Skalierung / Serie", "Lizenzkosten (LabVIEW/Matlab, propietäre OPC UA-Frameworks, GUI-Frameworks Telerik, Sycfusion, Infragistic)", "Verwendung eines eigenen kleinen lizenzfreien Frameworks, bei dem die Quellen vorliegen"],
+                ["Support", "Wissen nur im Kopf des Entwicklers", "Clean Code, Dokumentation, Automated Tests"]
             ]
         },
         features: [
@@ -166,8 +167,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 icon: "fa-vial"
             },
             {
-                title: "LIMS Integration",
-                description: "Nahtlose Anbindung an Labor-Informations-Systeme für automatischen Auftragsimport.",
+                title: "Jahrzehntelange Erfahrung in Hardware Anbindung",
+                description: "Ich habe jahrzentelange Erfahrung in Hardware-Anbindung und für sehr viele Hersteller schon Sensoren oder Antriebe angebunden (oft ohne Treibernutzung, was deutlich zuverlässiger ist). Zum Bespiel: Motoren/Antriebe von PI, Physical Instruments, PI-Micos, Newport, Faulhaber, Mitsubishi, Aerotec, Galil, Smaract, Maxon, Acs,  Sensoren von: Almemo, National Instruments, Keyence, Keithley, Thorlabs, Ophir, Kameras von Dalsa, Matrox (MIL) Basler, Dataray, Hamamatsu, Laser: Kohaerent, Newport, Steuerungen: Philips, Beckhoff, ADAM, Pilz, Siemens, ThermoSientific, Keysight.",
                 icon: "fa-database"
             }
         ],
