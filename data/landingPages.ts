@@ -98,15 +98,15 @@ export const landingPages: Record<string, LandingPageData> = {
         faq: [
             {
                 question: "Welche Protokolle sind Innen bereits vertraut",
-                answer: "Ich habe jahrelange Erfahrung mit alle seriellen (RS232, USB) und ASCII-Protokollen (Telnet, TCP-IP) wie sie immer noch an den meisten anspruchsvollen Sensoren und Antriebslösungen vorkommen. Natürlich habe ich auch langjährige Erfahrungen mit OPC UA (Client und Server), gRPC oder auch ADS (Beckhoff)."
+                answer: "Ich habe jahrelange Erfahrung mit alle seriellen (RS232, USB) und ASCII-Protokollen (Telnet, TCP-IP) wie sie immer noch an den meisten anspruchsvollen Sensoren und Antriebslösungen vorkommen. Natürlich habe ich auch langjährige Erfahrungen mit OPC UA (Client und Server), gRPC oder auch ADS (Beckhoff). Für die Integration von SECS/GEM nutze ich ausgefeilte Frameworks von anderen Anbietern."
             },
             {
                 question: "Können Sie kurzfristig in die Fab kommen?",
                 answer: "Ja, für Projekte im Raum Dresden ist eine Vor-Ort-Präsenz (On-Site Debugging) problemlos möglich. Ich besitze Erfahrung im sicheren Arbeiten in Reinraumumgebungen."
             },
             {
-                question: "Übernehmen Sie auch die SPS-Programmierung und PLanung von ganzen Automatisierungssystemen?",
-                answer: "Obwohl mein Fokus liegt auf der Hochsprachen-Ebene liegt (PC, IPC / Windows-Anwendung -> C#), kann ich auch SPS programmieren. (Beckhoff, Codesys, ST). Für die SPS von Siemens TIA arbeite ich eng mit Ihren Automatisierern zusammen oder bringe Partner aus meinem Netzwerk mit. Darüberhinaus bringe ich jahrelange Erfahrung in der Planung und Ausführung von kompletten Automatisierungssystemen mit, angefangen von der Auswahl der Hardware (Sensorik, Aktuatorik, Roboter) und der geeigneten Kommunikationsstruktur (OPC UA, gRPC ...), Integration in den mechanischen Aufbau, bis hin zur Überwachung der Erstellung der Stromlaufpläne durch Partner, der Verdrahtung, Inbetriebnahme, Produktionseinführung und des Service."
+                question: "Übernehmen Sie auch die SPS-Programmierung und Planung von ganzen Automatisierungssystemen?",
+                answer: "Obwohl mein Fokus liegt auf der Hochsprachen-Ebene liegt (PC, IPC / Windows-Anwendung -> C#), programmiere ich auch SPS/PLC. (Beckhoff, Codesys, ST). Darüberhinaus bringe ich jahrelange Erfahrung in der Planung und Ausführung von kompletten Automatisierungssystemen mit, angefangen von der Auswahl der Hardware (Sensorik, Aktuatorik, Roboter) und der geeigneten Kommunikationsstruktur (OPC UA, gRPC ...), Integration in den mechanischen Aufbau, bis hin zur Überwachung der Erstellung der Stromlaufpläne durch Partner, der Verdrahtung, Inbetriebnahme, Produktionseinführung und des Service. Für die Planung und Programmierung SPS von Siemens TIA arbeite ich eng mit Ihren Automatisierern zusammen oder bringe Partner aus meinem Netzwerk mit."
             }
         ]
     },
