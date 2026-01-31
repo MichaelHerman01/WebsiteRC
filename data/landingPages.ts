@@ -41,22 +41,22 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/cleanroom-robot.png",
         keywords: ["Semiconductor", "Automatisierungstechnik", "C#", ".NET", "SECS/GEM", "Dresden", "Equipment Control", "OHT", "Reinraum Software", "Wafer Handling"],
         metaDescription: "Senior C# Entwickler für Semiconductor in Dresden. Spezialist für Equipment Control, SECS/GEM, Wafer-Handling und Reinraum-Automatisierung. Jetzt Projekt anfragen.",
-        introText: "Im Herzen des 'Silicon Saxony' gelten keine Kompromisse. Die Halbleiterfertigung ist die Königsklasse der Automatisierung: Nanometer-Präzision, 24/7-Verfügbarkeit und Reinraum-Klassen, die keinen Fehler verzeihen. Als spezialisierter Software-Ingenieur verstehe ich nicht nur Code, sondern auch die Physik Ihrer Prozesse. Ob in Dresden-Nord, Freiberg oder Chemnitz – ich liefere Software, die Ihre Anlagen nahtlos in die Smart Fab integriert.",
+        introText: "Im Herzen des 'Silicon Saxony' gelten keine Kompromisse. Davon kann ich aus eigener Erfahrung berichten. Ich durfte bereits gemeinsam mit den Ingenieuren von der Freiberger Compound Materials GmbH die Software und die Automatisierungstechnik für einige Sondermaschinen für den harten Produktionseinsatz entwickeln und bei der Infineon AG im Dresdner Norden das MES-System für die Produktionssteuerung weiterentwickeln. Seitdem weiss ich: die Halbleiterfertigung ist die Königsklasse der Automatisierung: Nanometer-Präzision, Prozesse, die an die Grenzen des physikalisch machbaren gehen, 24/7-Verfügbarkeit und Reinraum-Klassen, die keinen Fehler verzeihen. Als spezialisierter Software-Ingenieur verstehe ich nicht nur Code, sondern auch die Physik Ihrer Prozesse. Ob in Dresden-Nord, Freiberg oder Chemnitz – ich liefere Software, die auf einem tiefen Verständis ihrer Prozesse basiert.",
         sections: [
             {
                 title: "Mission Critical: Software für den Reinraum",
-                content: "<p>In der Frontend- und Backend-Fertigung ist Software weit mehr als nur eine Benutzeroberfläche. Sie ist das Gehirn der Anlage. Ein kurzer Stillstand (Downtime) an einem Wafer-Handler oder ein Kommunikationsfehler beim 'Lot Tracking' kann Schäden in sechsstelliger Höhe verursachen.</p><p>Ich entwickle <strong>Equipment Control Software (ECS)</strong>, die speziell auf diese Anforderungen gehärtet ist. Mein Fokus liegt auf:</p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Fehlertoleranz:</strong> Automatische Recovery-Routinen, wenn Hardware (Greifer, Pumpen) kurze Aussetzer hat.</li><li><strong>Thread-Safety:</strong> Sichere Parallelverarbeitung von High-Speed Sensordaten und langsamen Datenbank-Operationen.</li><li><strong>Prozess-Sicherheit:</strong> Validierung aller Parameter *bevor* ein mechanischer Aktor bewegt wird, um Wafer-Bruch zu 100% auszuschließen.</li></ul>",
+                content: "<p>Sowohl auf dem IPC oder in der SPS/PLC ist Software weit mehr als nur eine Benutzeroberfläche. Sie ist das Gehirn der Anlage. Ein kurzer Stillstand (Downtime) an einem Wafer-Handler oder ein Kommunikationsfehler beim 'Lot Tracking' kann Schäden in sechsstelliger Höhe verursachen.</p><p>Ich entwickle <strong>Equipment Control Software (ECS)</strong>, die speziell auf diese Anforderungen gehärtet ist. Mein Fokus liegt auf:</p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Fehlertoleranz:</strong> Automatische Recovery-Routinen, wenn Hardware (Greifer, Pumpen) kurze Aussetzer hat.</li><li><strong>Thread-Safety:</strong> Sichere Parallelverarbeitung von High-Speed Sensordaten und langsamen Datenbank-Operationen im Hintergrund und immer ein flüssiges Nutzererlebnis am Bildschirm.</li><li><strong>Prozess-Sicherheit:</strong> Validierung aller Parameter *bevor* ein mechanischer Aktor bewegt wird, um Wafer-Bruch zu 100% auszuschließen.</li></ul>",
                 infographic: "/images/cleanroom-robot.png",
                 infographicAlt: "Roboterarm handhabt 300mm Wafer im gelben Reinraumlicht",
                 cta: {
                     headline: "Haben Sie Probleme mit Legacy-Software?",
-                    text: "Alte VB6 oder WinForms Anwendungen bremsen Ihre neuen Anlagen aus? Lassen Sie uns über eine sichere Migration sprechen.",
+                    text: "Alte VB6, LabView, Win95-Anwendungen bremsen Ihre neuen Anlagen aus? Lassen Sie uns über eine sichere Migration sprechen.",
                     btnText: "Code-Audit vereinbaren"
                 }
             },
             {
-                title: "SECS/GEM & Host-Kommunikation",
-                content: "<p>Die schönste Anlage nützt nichts, wenn sie 'stumm' ist. Die Integration in das Manufacturing Execution System (MES) via <strong>SECS/GEM</strong> (SEMI E5, E30, E37) ist oft der Flaschenhals bei neuen Projekten. Standard-Bibliotheken sind teuer und oft unflexibel.</p><p>Ich implementiere für Sie:</p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Full Compliance:</strong> Vollständige Umsetzung der GEM-States (Control, Equipment Processing).</li><li><strong>Remote Command Control:</strong> Start/Stop/Pause der Anlage direkt vom Leitstand aus.</li><li><strong>Traceability:</strong> Lückenlose Erfassung von Wafer-ID, Slot-Number und Prozess-Parametern für jedes einzelne Produkt.</li><li><strong>Hybrid-Lösungen:</strong> Verbindung von modernem OPC UA mit klassischem SECS/GEM für Retrofit-Projekte.</li></ul>",
+                title: "Host-Kommunikation",
+                content: "<p>Die schönste Anlage nützt nichts, wenn sie 'stumm' ist. Die Integration in das Manufacturing Execution System (MES) ist oft der Flaschenhals bei neuen Projekten.</p><p>Ich implementiere für Sie:</p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Full Compliance:</strong> Vollständige Umsetzung der GEM-States (Control, Equipment Processing).</li><li><strong>Remote Command Control:</strong> Start/Stop/Pause der Anlage direkt vom Leitstand aus.</li><li><strong>Traceability:</strong> Lückenlose Erfassung von Wafer-ID, Slot-Number und Prozess-Parametern für jedes einzelne Produkt.</li><li><strong>Hybrid-Lösungen:</strong> Kommunikation über OPC UA, gRPC, propieatäre Protokolle oder SECS/GEM.</li></ul>",
                 infographic: "/images/secs-gem-flow.png",
                 infographicAlt: "Diagramm des SECS/GEM Protokoll Stacks und Datenfluss"
             },
@@ -71,42 +71,42 @@ export const landingPages: Record<string, LandingPageData> = {
             title: "Vergleich: Standard-IT vs. Semiconductor-Engineering",
             headers: ["Kriterium", "Generische IT-Agentur", "ResearchControl (Spezialisiert)"],
             rows: [
-                ["Hardware-Verständnis", "Begrenzt (Web/App Fokus)", "Tief (Weiß, wie ein Loadport funktioniert)"],
+                ["Hardware-Verständnis", "Begrenzt (Web/App Fokus)", "Tief (Weiß, wie ein Waferhandling Robot funktioniert)"],
                 ["Verfügbarkeit", "Bürozeiten (9-to-5)", "Versteht Schichtbetrieb & Wartungsfenster"],
-                ["Technologie", "Oft Web-basiert (Latenz!)", "Native C# / C++ (Echtzeit-nah)"],
-                ["Protokolle", "REST/JSON", "SECS/GEM, Modbus, ADS, EtherCAT"],
+                ["Technologie", "Oft Web-basiert (Latenz!) oder Verwendung überbordender Frameworks", "Leichte, gut wartbare C#-Anwendungen, mit PLC-Anbindung"],
+                ["Protokolle", "REST/JSON", "UPC UA, ADS, gRPC, Proprietäre Protokolle"],
                 ["Sicherheit", "Fokus auf Datenschutz", "Fokus auf Anlagensicherheit & Personenschutz"]
             ]
         },
         features: [
             {
-                title: "300mm Ready",
-                description: "Erfahrung mit Standard-Automatisierung für 300mm Fabs (FOUPs, OHT, E84 Handshake).",
+                title: "Waferhandling",
+                description: "Erfahrung mit Standard-Automatisierung für Waferhandling.",
                 icon: "fa-circle-notch"
             },
             {
                 title: "Legacy Integration",
-                description: "Anbindung alter RS232/GPIB Messgeräte an moderne Ethernet-Architekturen.",
+                description: "Anbindung alter RS232/GPIB-Messgeräte oder moderner wissenschaftlicher Sensoren und Antriebe an moderne Ethernet-Architekturen.",
                 icon: "fa-plug"
             },
             {
-                title: "High-Availability",
-                description: "Software-Design für 99.9% Uptime. Kein Memory-Leak darf die Produktion stoppen.",
+                title: "Physik-Affin",
+                description: "Gerade mit Prozessen, die an die Grenzen der Physik gehen, habe ich bereits viel Erfahrung und spreche die Sprache der Physiker, Optiker und Spezialisten.",
                 icon: "fa-server"
             }
         ],
         faq: [
             {
-                question: "Welche SEMI-Standards unterstützen Sie?",
-                answer: "Ich arbeite primär mit E5 (SECS-II), E30 (GEM) und E37 (HSMS). Für spezifische Anforderungen (z.B. E87 Carrier Management) integriere ich entsprechende Bibliotheken oder entwickle Custom-Lösungen."
+                question: "Welche Protokolle sind Innen bereits vertraut",
+                answer: "Ich habe jahrelange Erfahrung mit alle seriellen (RS232, USB) und ASCII-Protokollen (Telnet, TCP-IP) wie sie immer noch an den meisten anspruchsvollen Sensoren und Antriebslösungen vorkommen. Natürlich habe ich auch langjährige Erfahrungen mit OPC UA (Client und Server), gRPC oder auch ADS (Beckhoff)."
             },
             {
                 question: "Können Sie kurzfristig in die Fab kommen?",
                 answer: "Ja, für Projekte im Raum Dresden ist eine Vor-Ort-Präsenz (On-Site Debugging) problemlos möglich. Ich besitze Erfahrung im sicheren Arbeiten in Reinraumumgebungen."
             },
             {
-                question: "Übernehmen Sie auch die SPS-Programmierung?",
-                answer: "Mein Fokus liegt auf der Hochsprachen-Ebene (PC, Datenbank, MES). Für die SPS (Beckhoff Twincat, Siemens TIA) arbeite ich eng mit Ihren Automatisierern zusammen oder bringe Partner aus meinem Netzwerk mit."
+                question: "Übernehmen Sie auch die SPS-Programmierung und PLanung von ganzen Automatisierungssystemen?",
+                answer: "Obwohl mein Fokus liegt auf der Hochsprachen-Ebene liegt (PC, IPC / Windows-Anwendung -> C#), kann ich auch SPS programmieren. (Beckhoff, Codesys, ST). Für die SPS von Siemens TIA arbeite ich eng mit Ihren Automatisierern zusammen oder bringe Partner aus meinem Netzwerk mit. Darüberhinaus bringe ich jahrelange Erfahrung in der Planung und Ausführung von kompletten Automatisierungssystemen mit, angefangen von der Auswahl der Hardware (Sensorik, Aktuatorik, Roboter) und der geeigneten Kommunikationsstruktur (OPC UA, gRPC ...), Integration in den mechanischen Aufbau, bis hin zur Überwachung der Erstellung der Stromlaufpläne durch Partner, der Verdrahtung, Inbetriebnahme, Produktionseinführung und des Service."
             }
         ]
     },
