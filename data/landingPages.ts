@@ -207,9 +207,9 @@ export const landingPages: Record<string, LandingPageData> = {
                 infographic: "/images/touch-panel-user.png",
                 infographicAlt: "Industriearbeiter bedient intuitives Touch-Panel",
                 cta: {
-                    headline: "Wie modern wirkt Ihre Maschine?",
-                    text: "Senden Sie mir einen Screenshot Ihrer aktuellen Oberfläche. Ich gebe Ihnen ein kostenloses Feedback mit 3 konkreten Optimierungsideen.",
-                    btnText: "UI-Check anfordern"
+                    headline: "Wie aufwändig wird ein upgrade auf Windows 11?",
+                    text: "Senden Sie mir eine Kurzbeschreibung Ihrer Maschine oder ihres Gerätes. Ich gebe Ihnen ein kostenloses Überblick über zeitlichen Aufwand und Kosten des Upgrades.",
+                    btnText: "Upgrade-Check anfordern"
                 }
             },
             {
@@ -238,18 +238,18 @@ export const landingPages: Record<string, LandingPageData> = {
         },
         features: [
             {
-                title: "Styleguide-Treue",
-                description: "Pixel-perfekte Umsetzung Ihres Corporate Designs (CI) in die Software.",
+                title: "Flüssiges Benutzererlebnis",
+                description: "Keine hängeden Oberflächen, sondern ein flüssiges stets reponsibles Benutzerlebnis, erreiche ich durch konsequente Auslagerung aller Zeitkritischen Prozesse in Hintergrundtasks.",
                 icon: "fa-palette"
             },
             {
-                title: "International",
-                description: "Umschaltung von Sprache und Einheiten (Metrisch/Imperial) zur Laufzeit.",
+                title: "Rapid Prototyping",
+                description: "Eine schnelle Umsetzung Ihrer Ideen (in Wochen!!!) durch konsequente Anwendung des MVVM-Entwurfspattern, Einbindung von KI, leichtgewichtige ständig erweiterbare Architektur ohne die Verwendung großer überbordnder Frameworks.",
                 icon: "fa-globe"
             },
             {
-                title: "Benutzerverwaltung",
-                description: "RFID-Login Integration für schnelle Benutzerwechsel und Rechtesteuerung.",
+                title: "Windows-Applikation erweitert die Fähigkeiten der SPS",
+                description: "Die Kombination von IPC und SPS bietet eine ideale Architektur für mittelgroße Anwendungen. Auf der SPS laufen alle zeitkritischen und Hardwarenahen Routineaufgaben, Ansteuerung der Hardwarr, Verriegelung von Bewegungen etc und die Windows-Applikation auf dem IPC bringt eine leichte Erweiterbarkeit, Ansprechende flexible HMI, Kommunikation über diverse Schnittstellen (z.B. Einbindung von Sensoren über USB), Speicherung von Daten in Datenbanken, beliebige Protokolle zur Übergeordneten Ebene.",
                 icon: "fa-id-card"
             }
         ],
@@ -259,8 +259,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 answer: "Ich bin spezialisierter Entwickler, habe aber ein gutes Auge für UI/UX. Für hochkomplexe Design-Entwürfe arbeite ich gerne mit Ihren Grafikern zusammen oder vermittle Experten."
             },
             {
-                question: "Wie lange dauert eine HMI-Modernisierung?",
-                answer: "Ein 'Re-Skinning' einer bestehenden sauberen Applikation kann in 4-8 Wochen erfolgen. Eine komplette Neuentwicklung hängt stark von der Komplexität der Maschine ab."
+                question: "Wie lange dauert die Umsetzung eines Upgrades auf Windows 11 mit einer HMI-Modernisierung?",
+                answer: "Ein 'Re-Skinning' oder Refurbish einer bestehenden gut dokumentierten Applikation mittlerer Komplexität kann in 4-8 Wochen erfolgen. Entscheidende Faktoren sind die Qualität der Dokumentation oder des vorhandenen Wissens über die Technologie und die angebundene Hardware,Schnittstellen zur Hardware und zu höheren Ebenen der Kommunikation und natürlich von der komplexität der Maschine oder des Gerätes."
             },
             {
                 question: "Nutzen Sie Drittanbieter-Controls?",
