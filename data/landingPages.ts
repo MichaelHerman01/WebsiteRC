@@ -239,17 +239,17 @@ export const landingPages: Record<string, LandingPageData> = {
         features: [
             {
                 title: "Flüssiges Benutzererlebnis",
-                description: "Keine hängeden Oberflächen, sondern ein flüssiges stets reponsibles Benutzerlebnis, erreiche ich durch konsequente Auslagerung aller Zeitkritischen Prozesse in Hintergrundtasks.",
+                description: "Keine hängeden Oberflächen, sondern ein flüssiges stets reponsibles Benutzerlebnis, erreiche ich durch konsequente Auslagerung aller zeitkritischen Prozesse in Hintergrundtasks.",
                 icon: "fa-palette"
             },
             {
                 title: "Rapid Prototyping",
-                description: "Eine schnelle Umsetzung Ihrer Ideen (in Wochen!!!) durch konsequente Anwendung des MVVM-Entwurfspattern, Einbindung von KI, leichtgewichtige ständig erweiterbare Architektur ohne die Verwendung großer überbordnder Frameworks.",
+                description: "Eine schnelle Umsetzung Ihrer Ideen (in Wochen!!!) durch konsequente Anwendung des MVVM-Entwurfspattern, Einbindung von KI, leichtgewichtige ständig erweiterbare Architektur ohne die Verwendung großer überbordnder Frameworks. Trotzdem bleibt alles sauberer Code, der später auch unter produktiven Bedingungen eingesetzt werden kann und extrem gut Ausbaufähig und erbeiterbar ist..",
                 icon: "fa-globe"
             },
             {
                 title: "Windows-Applikation erweitert die Fähigkeiten der SPS",
-                description: "Die Kombination von IPC und SPS bietet eine ideale Architektur für mittelgroße Anwendungen. Auf der SPS laufen alle zeitkritischen und Hardwarenahen Routineaufgaben, Ansteuerung der Hardwarr, Verriegelung von Bewegungen etc und die Windows-Applikation auf dem IPC bringt eine leichte Erweiterbarkeit, Ansprechende flexible HMI, Kommunikation über diverse Schnittstellen (z.B. Einbindung von Sensoren über USB), Speicherung von Daten in Datenbanken, beliebige Protokolle zur Übergeordneten Ebene.",
+                description: "Die Kombination von IPC und SPS bietet eine ideale Architektur für mittelgroße bis hin zu sehr komplexen Anwendungen. Auf der SPS laufen alle zeitkritischen und hardwarenahen Routineaufgaben, Ansteuerung der Hardwarr, Verriegelung von Bewegungen etc. und die Windows-Applikation auf dem IPC bringt eine leichte Erweiterbarkeit, Ansprechende flexible HMI, Kommunikation über diverse Schnittstellen (z.B. Einbindung von Sensoren über USB), Speicherung von Daten in Datenbanken, beliebige Protokolle zur Übergeordneten Ebene.",
                 icon: "fa-id-card"
             }
         ],
@@ -264,7 +264,7 @@ export const landingPages: Record<string, LandingPageData> = {
             },
             {
                 question: "Nutzen Sie Drittanbieter-Controls?",
-                answer: "Wo sinnvoll ja (z.B. für komplexe Charts), um Kosten zu sparen. Aber ich vermeide unnötige Abhängigkeiten, um Lizenzprobleme zu verhindern."
+                answer: "Wo sinnvoll ja (z.B. für komplexe Charts), um Kosten zu sparen. Aber ich vermeide unnötige Abhängigkeiten, um Lizenzprobleme zu verhindern. Ich achte ganz besonders darauf, die Verwendung von unnötigen Frameworks zu vermeiden, weil in jeder externen Abhängigkeit ein schlecht kalkulierbares Risiko steckt. "
             }
         ]
     },
@@ -272,11 +272,11 @@ export const landingPages: Record<string, LandingPageData> = {
     "rostock": {
         slug: "sps-hochsprachen-programmierung-rostock",
         title: "Industrie 4.0 & IoT Vernetzung: SPS trifft IT in Rostock",
-        subtitle: "Wir befreien Ihre Daten aus der Steuerung. Sichere OPC UA & MQTT Lösungen für Maritime Wirtschaft und Produktion.",
+        subtitle: "Wir befreien Ihre Daten aus der Steuerung. Sichere OPC UA & gRPC Lösungen für Maritime Wirtschaft und Produktion.",
         heroImage: "/images/opc-ua-security.png",
-        keywords: ["OPC UA", "MQTT", "SPS Anbindung", "Rostock", "Industrie 4.0", "Edge Computing", "Siemens S7", "Beckhoff"],
-        metaDescription: "Verbinden Sie Ihre SPS mit der Cloud. Experte für OPC UA, MQTT und Hochsprachen-Programmierung in Rostock. Jetzt Datenpotenziale nutzen.",
-        introText: "Die SPS ist der Muskel der Maschine, aber Software ist das Gehirn. In der maritimen Industrie und Fertigung rund um Rostock wird noch viel Potenzial verschenkt, weil Daten in der Steuerung 'gefangen' sind. Ich baue die digitalen Brücken. Ich sorge dafür, dass Ihre Siemens oder Beckhoff Steuerung sicher mit dem ERP, der Cloud oder dem MES spricht – ohne die Echtzeit-Prozesse zu gefährden.",
+        keywords: ["OPC UA", "rRPC", "SPS Anbindung", "IOT Anbindung" "Rostock", "Industrie 4.0", "Edge Computing", "Codesys", "Beckhoff"],
+        metaDescription: "Verbinden Sie Ihre SPS oder ihr IOT Device mit der Cloud. Experte für OPC UA, gRPC und Hochsprachen-Programmierung in Rostock. Jetzt Datenpotenziale nutzen.",
+        introText: "Die SPS ist der Nerv der Maschine, aber Software ist das Gehirn. In der maritimen Industrie und Fertigung rund um Rostock wird noch viel Potenzial verschenkt, weil Daten in der Steuerung 'gefangen' sind. Ich baue die digitalen Brücken. Ich sorge dafür, dass Ihre Siemens oder Beckhoff Steuerung sicher alle Sprachen der Industriekommunikation spricht (auch proprietäre Protokolle!)– ohne die Echtzeit-Prozesse zu gefährden.",
         sections: [
             {
                 title: "OPC UA: Der Standard für Interoperabilität",
