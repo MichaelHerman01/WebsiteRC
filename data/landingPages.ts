@@ -274,7 +274,7 @@ export const landingPages: Record<string, LandingPageData> = {
         title: "Industrie 4.0 & IoT Vernetzung: SPS trifft IT in Rostock",
         subtitle: "Wir befreien Ihre Daten aus der Steuerung. Sichere OPC UA & gRPC Lösungen für Maritime Wirtschaft und Produktion.",
         heroImage: "/images/opc-ua-security.png",
-        keywords: ["OPC UA", "rRPC", "SPS Anbindung", "IOT Anbindung" "Rostock", "Industrie 4.0", "Edge Computing", "Codesys", "Beckhoff"],
+        keywords: ["OPC UA", "rRPC", "SPS Anbindung", "IOT Anbindung", "Rostock", "Industrie 4.0", "Edge Computing", "Codesys", "Beckhoff"],
         metaDescription: "Verbinden Sie Ihre SPS oder ihr IOT Device mit der Cloud. Experte für OPC UA, gRPC und Hochsprachen-Programmierung in Rostock. Jetzt Datenpotenziale nutzen.",
         introText: "Die SPS ist der Nerv der Maschine, aber Software ist das Gehirn. In der maritimen Industrie und Fertigung rund um Rostock wird noch viel Potenzial verschenkt, weil Daten in der Steuerung 'gefangen' sind. Ich baue die digitalen Brücken. Ich sorge dafür, dass Ihre Siemens oder Beckhoff Steuerung sicher alle Sprachen der Industriekommunikation spricht (auch proprietäre Protokolle!)– ohne die Echtzeit-Prozesse zu gefährden.",
         sections: [
