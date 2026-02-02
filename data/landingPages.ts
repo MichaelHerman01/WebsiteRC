@@ -175,7 +175,7 @@ export const landingPages: Record<string, LandingPageData> = {
         faq: [
             {
                 question: "Wie aufwendig ist es eine neue Hardware anzubinden?",
-                answer: "Auf Grund meiner jahrzehntelangen Erfahrung in der Anbindung von Hardware, ist der Aufwand im allgemeinen serh gering. Ich hsbe schon mit folgenden Hardware Anbindung in C#/.Net Erfahrungen gesammelt: Motoren/Antriebe von PI, Physical Instruments, PI-Micos, Newport, Faulhaber, Mitsubishi, Aerotec, Galil, Smaract, Maxon, Acs,  Sensoren von: Almemo, National Instruments, Keyence, Keithley, Thorlabs, Ophir, Kameras von Dalsa, Matrox (MIL) Basler, Dataray, Hamamatsu, Laser: Kohaerent, Newport, Steuerungen: Philips, Beckhoff, ADAM, Pilz, Siemens, ThermoSientific, Keysight. "
+                answer: "Auf Grund meiner jahrzehntelangen Erfahrung in der Anbindung von Hardware, ist der Aufwand im allgemeinen sehr gering. Ich habe schon mit folgenden Hardware Anbindung in C#/.Net Erfahrungen gesammelt: Motoren/Antriebe von PI, Physical Instruments, PI-Micos, Newport, Faulhaber, Mitsubishi, Aerotec, Galil, Smaract, Maxon, Acs,  Sensoren von: Almemo, National Instruments, Keyence, Keithley, Thorlabs, Ophir, Kameras von Dalsa, Matrox (MIL) Basler, Dataray, Hamamatsu, Laser: Kohaerent, Newport, Steuerungen: Philips, Beckhoff, ADAM, Pilz, Siemens, ThermoSientific, Keysight. "
             },
             {
                 question: "Warum C# statt Python?",
@@ -244,23 +244,23 @@ export const landingPages: Record<string, LandingPageData> = {
             },
             {
                 title: "Rapid Prototyping",
-                description: "Eine schnelle Umsetzung Ihrer Ideen (in Wochen!!!) durch konsequente Anwendung des MVVM-Entwurfspattern, Einbindung von KI, leichtgewichtige ständig erweiterbare Architektur ohne die Verwendung großer überbordnder Frameworks. Trotzdem bleibt alles sauberer Code, der später auch unter produktiven Bedingungen eingesetzt werden kann und extrem gut Ausbaufähig und erbeiterbar ist..",
+                description: "Eine schnelle Umsetzung Ihrer Ideen (in Wochen!!!) durch konsequente Anwendung des MVVM-Entwurfspattern, Einbindung von KI, leichtgewichtige ständig erweiterbare Architektur ohne die Verwendung großer überbordnder Frameworks. Trotzdem bleibt alles sauberer Code, der später auch unter produktiven Bedingungen eingesetzt werden kann und extrem gut ausbaufähig und erweiterbar ist.",
                 icon: "fa-globe"
             },
             {
                 title: "Windows-Applikation erweitert die Fähigkeiten der SPS",
-                description: "Die Kombination von IPC und SPS bietet eine ideale Architektur für mittelgroße bis hin zu sehr komplexen Anwendungen. Auf der SPS laufen alle zeitkritischen und hardwarenahen Routineaufgaben, Ansteuerung der Hardwarr, Verriegelung von Bewegungen etc. und die Windows-Applikation auf dem IPC bringt eine leichte Erweiterbarkeit, Ansprechende flexible HMI, Kommunikation über diverse Schnittstellen (z.B. Einbindung von Sensoren über USB), Speicherung von Daten in Datenbanken, beliebige Protokolle zur Übergeordneten Ebene.",
+                description: "Die Kombination von IPC und SPS bietet eine ideale Architektur für mittelgroße bis hin zu sehr komplexen Anwendungen. Auf der SPS laufen alle zeitkritischen und hardwarenahen Routineaufgaben, Ansteuerung der Sensoren und Antriebe, Verriegelung von Bewegungen etc. und die Windows-Applikation auf dem IPC bringt eine leichte Erweiterbarkeit, Ansprechende flexible HMI, Kommunikation über diverse Schnittstellen (z.B. Einbindung von Sensoren über USB), Speicherung von Daten in Datenbanken, beliebige Protokolle zur übergeordneten Ebene.",
                 icon: "fa-id-card"
             }
         ],
         faq: [
             {
                 question: "Erstellen Sie auch das Grafik-Design?",
-                answer: "Ich bin spezialisierter Entwickler, habe aber ein gutes Auge für UI/UX. Für hochkomplexe Design-Entwürfe arbeite ich gerne mit Ihren Grafikern zusammen oder vermittle Experten."
+                answer: "Im allgemeinen: Ja. Ich bin spezialisierter Entwickler, habe aber ein gutes Auge für UI/UX. Für hochkomplexe Design-Entwürfe arbeite ich gerne mit Ihren Grafikern zusammen oder vermittle Experten."
             },
             {
                 question: "Wie lange dauert die Umsetzung eines Upgrades auf Windows 11 mit einer HMI-Modernisierung?",
-                answer: "Ein 'Re-Skinning' oder Refurbish einer bestehenden gut dokumentierten Applikation mittlerer Komplexität kann in 4-8 Wochen erfolgen. Entscheidende Faktoren sind die Qualität der Dokumentation oder des vorhandenen Wissens über die Technologie und die angebundene Hardware,Schnittstellen zur Hardware und zu höheren Ebenen der Kommunikation und natürlich von der komplexität der Maschine oder des Gerätes."
+                answer: "Ein 'Re-Skinning' oder Refurbishing einer bestehenden gut dokumentierten Applikation mittlerer Komplexität kann in 4-8 Wochen erfolgen. Entscheidende Faktoren sind die Qualität der Dokumentation oder des vorhandenen Wissens über die Technologie und die angebundene Hardware, Schnittstellen zur Hardware und zu höheren Ebenen der Kommunikation und natürlich wie komplex die Maschine oder des Gerät ist."
             },
             {
                 question: "Nutzen Sie Drittanbieter-Controls?",
@@ -280,7 +280,7 @@ export const landingPages: Record<string, LandingPageData> = {
         sections: [
             {
                 title: "OPC UA: Der Standard für Interoperabilität",
-                content: "<p>Proprietäre Schnittstellen waren gestern. Heute spricht die Fabrik **OPC UA**. Ich implementiere performante OPC UA Server und Clients direkt in C# / .NET.</p><p><strong>Warum OPC UA?</strong></p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Security by Design:</strong> Verschlüsselte Übertragung und Zertifikats-basierte Authentifizierung bis runter zur Maschine.</li><li><strong>Semantische Daten:</strong> Nicht nur 'Wert 50', sondern 'Temperatur Motor A, Einheit Grad Celsius'.</li><li><strong>Plattformunabhängig:</strong> Läuft auf Linux-Gateways genauso wie auf Windows-Servern.</li></ul>",
+                content: "<p>Proprietäre Schnittstellen waren gestern. Heute spricht die Fabrik **OPC UA**. Ich implementiere performante OPC UA Server und Clients direkt in C# / .NET ohne anufwändige, unnötige und zu lizensierende Drittanbieter-Frameworks.</p><p><strong>Warum OPC UA?</strong></p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Security by Design:</strong> Verschlüsselte Übertragung und Zertifikats-basierte Authentifizierung bis runter zur Maschine.</li><li><strong>Semantische Daten:</strong> Nicht nur 'Wert 50', sondern 'Temperatur Motor A, Einheit Grad Celsius'.</li><li><strong>Plattformunabhängig:</strong> Läuft auf Linux-Gateways genauso wie auf Windows-Servern.</li></ul>",
                 infographic: "/images/opc-ua-security.png",
                 infographicAlt: "Digitales Sicherheitsschild vor Server-Rack mit OPC UA Schriftzug",
                 cta: {
@@ -314,8 +314,8 @@ export const landingPages: Record<string, LandingPageData> = {
         },
         features: [
             {
-                title: "SPS-Treiber",
-                description: "Direkte Kommunikation mit S7 (Snap7), Beckhoff (ADS) und Allen-Bradley ohne teure Middleware.",
+                title: "SPS-Kommunikation",
+                description: "Direkte Kommunikation mit Beckhoff über ADS oder OPC UA, mit Siemens S7 über OPC UA.",
                 icon: "fa-memory"
             },
             {
@@ -324,8 +324,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 icon: "fa-database"
             },
             {
-                title: "Dashboarding",
-                description: "Erstellung von web-basierten Dashboards (Grafana / Blazor) für den schnellen Überblick.",
+                title: "Ältere oder propieatäre Protokolle",
+                description: "Natürlich kenne ich die etwas angestaubten älteren Feldbusse auch sehr gut und binde Ihnen auch Modbus, RS232, CAN-Bus, sowie auch alle anderen Feldbusse und auch propietäre Protokolle (soweit sie dokumentiert sind) an ihr System an.",
                 icon: "fa-chart-line"
             }
         ],
@@ -335,8 +335,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 answer: "Nicht zwingend. Oft reicht ein kleines Gateway (z.B. Raspberry Pi Industrial oder ein kleiner IPC), das parallel zur SPS installiert wird und die Daten 'abgreift'."
             },
             {
-                question: "Unterstützen Sie Cloud-Plattformen?",
-                answer: "Ich bin plattformneutral. Ich kann Ihre Daten an Azure IoT Hub, AWS Sitewise oder Ihre eigene Private Cloud senden."
+                question: "Können auch Devices mit USB-Schnittelle angebunden werden?",
+                answer: "Die USB-Schnittelle ist prinzipiell auf Grund der mechanischen Eigenschaften des Steckersystems und aufgrund ihrer schlechten Reconnect-Eigenschaften für Automatisierungslösungen nur bedingt geeignet. Bei Geräten, für die es nur die USB-Schnittstelle gibt, eignet sich ein kleiner IPC zur Anbindung an die SPS über OPC UA, oder die Architektur kann so gewählt werden, dass die Daten direkt in den IPC der HMI gelangen und von dort zur SPS."
             }
         ]
     },
