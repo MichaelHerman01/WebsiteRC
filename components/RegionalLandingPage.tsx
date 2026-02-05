@@ -85,9 +85,7 @@ export default function RegionalLandingPage({ data }: RegionalLandingPageProps) 
             {/* Intro Text */}
             <section id="details" className="py-20 bg-white">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="text-lg text-slate-700 leading-loose text-center font-medium">
-                        {data.introText}
-                    </div>
+                    <div className="text-lg text-slate-700 leading-loose text-center" dangerouslySetInnerHTML={{ __html: data.introText }}></div>
                 </div>
             </section>
 

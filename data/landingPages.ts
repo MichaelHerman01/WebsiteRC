@@ -41,7 +41,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/cleanroom-robot.png",
         keywords: ["Semiconductor", "Automatisierungstechnik", "C#", ".NET", "OPC UA", "Dresden", "Equipment Control", "Reinraum Software", "Wafer Handling"],
         metaDescription: "Senior C# Entwickler für Semiconductor in Dresden. Spezialist für Equipment Control, OPC UA, Wafer-Handling und Reinraum-Automatisierung. Jetzt Projekt anfragen.",
-        introText: "Im Herzen des 'Silicon Saxony' gelten keine Kompromisse. Davon kann ich aus eigener Erfahrung berichten. Ich durfte bereits gemeinsam mit den Ingenieuren von der Freiberger Compound Materials GmbH die Software und die Automatisierungstechnik für einige Sondermaschinen für den harten Produktionseinsatz entwickeln und bei der Infineon AG im Dresdner Norden das MES-System für die Produktionssteuerung weiterentwickeln. Seitdem weiss ich: die Halbleiterfertigung ist die Königsklasse der Automatisierung: Nanometer-Präzision, Prozesse, die an die Grenzen des physikalisch machbaren gehen, 24/7-Verfügbarkeit und Reinraum-Klassen, die keinen Fehler verzeihen. Als spezialisierter Software-Ingenieur verstehe ich nicht nur Code, sondern auch die Physik Ihrer Prozesse. Ob in Dresden-Nord, Freiberg oder Chemnitz – ich liefere Software, die auf einem tiefen Verständis ihrer Prozesse basiert.",
+        introText: "Im Herzen des <strong>'Silicon Saxony'</strong> gelten keine Kompromisse. Davon kann ich aus eigener Erfahrung berichten. Ich durfte bereits gemeinsam mit den Ingenieuren von der Freiberger Compound Materials GmbH die Software und die Automatisierungstechnik für einige Sondermaschinen für den harten Produktionseinsatz entwickeln und bei der Infineon AG im Dresdner Norden das MES-System für die Produktionssteuerung weiterentwickeln. Seitdem weiss ich: die <strong>Halbleiterfertigung</strong> ist die Königsklasse der Automatisierung: Nanometer-Präzision, Prozesse, die an die Grenzen des physikalisch machbaren gehen, 24/7-Verfügbarkeit und <strong>Reinraum-Klassen</strong>, die keinen Fehler verzeihen. Als spezialisierter Software-Ingenieur verstehe ich nicht nur Code, sondern auch die Physik Ihrer Prozesse. Ob in Dresden-Nord, Freiberg oder Chemnitz – ich liefere Software, die auf einem tiefen Verständis ihrer Prozesse basiert.",
         sections: [
             {
                 title: "Mission Critical: Software für den Reinraum",
@@ -63,7 +63,7 @@ export const landingPages: Record<string, LandingPageData> = {
             {
                 title: "Modernisierung & Retrofit statt Neukauf",
                 content: "<p>Viele Anlagen im Feld sind mechanisch unzerstörbar, aber die Steuerung läuft noch auf Windows XP. Das ist ein massives Sicherheitsrisiko und verhindert die Integration in moderne IT-Infrastrukturen.</p><p>Ich biete Ihnen ein <strong>Software-Retrofit</strong> an: Ich ersetze den veralteten Steuerungs-PC durch einen modernen Industrie-PC mit Windows 10/11 IoT und meiner neu entwickelten .NET Software. Die bestehende SPS und Sensorik wird via Bus-Koppler weitergenutzt. So machen Sie Ihre 20 Jahre alte Sputter-Anlage bereit für Industrie 4.0 – zu einem Bruchteil der Kosten einer Neuanlage.</p>",
-                infographic: "/images/semiconductor-infographic.png",
+                infographic: "/images/cleanroom-robot.png",
                 infographicAlt: "Futuristische Darstellung einer Halbleiter-Fabrik"
             }
         ],
@@ -118,7 +118,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/microscope-analysis.png",
         keywords: ["Laborautomatisierung", "LabVIEW Alternative", "Photonik", "Jena", "Messtechnik", "Bildverarbeitung", "Präzisions Sensoren", "Präzisions Antriebe", "C#"],
         metaDescription: "Softwareentwicklung für Laborgeräte und Optik in Jena. Ich ersetze komplexe LabVIEW-Projekte durch wartbare C# / .NET Lösungen. Jetzt beraten lassen.",
-        introText: "Jena ist das weltweite Zentrum für Optik und Photonik. Hier entstehen Geräte, die an die Grenzen der Physik gehen. Doch oft hält die Software nicht mit der Qualität der Hardware mit. Viele Projekte stecken in unwartbaren 'Spaghetti-Code' Strukturen fest. Ich helfe High-Tech Unternehmen in Thüringen, ihre exzellente Hardware mit ebenso exzellenter, professioneller Software auszustatten – skalierbar, wartbar und benutzerfreundlich - und ich durfte schon etliche Jahre in Jena bei der Carl-Zeiss AG und der LIS Gmbh (KLA-Tencor) meinen Beitrag für eine qualitativ hochwertige Softwarebasis leisten.",
+        introText: "<strong>Jena</strong> ist das weltweite Zentrum für <strong>Optik und Photonik</strong>. Hier entstehen Geräte, die an die Grenzen der Physik gehen. Doch oft hält die Software nicht mit der Qualität der Hardware mit. Viele Projekte stecken in unwartbaren 'Spaghetti-Code' Strukturen fest. Ich helfe High-Tech Unternehmen in Thüringen, ihre exzellente Hardware mit ebenso exzellenter, professioneller Software auszustatten – skalierbar, wartbar und benutzerfreundlich - und ich durfte schon etliche Jahre in Jena bei der Carl-Zeiss AG und der LIS Gmbh (KLA-Tencor) meinen Beitrag für eine qualitativ hochwertige <strong>Softwarebasis</strong> leisten.",
         sections: [
             {
                 title: "Intelligente Gerätesteuerung: Mehr als nur Treiber",
@@ -199,7 +199,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/touch-panel-user.png",
         keywords: ["HMI Design", "WPF Entwicklung", "Maschinenbau Chemnitz", "UX Design", "Touch Interface", "Operator Guidance", ".NET"],
         metaDescription: "Experte für HMI Design und GUI Entwicklung im Maschinenbau (Chemnitz). Ich erstelle moderne WPF-Oberflächen, die Bedienfehler reduzieren und den Umsatz steigern.",
-        introText: "In einer Welt, in der jeder ein iPhone in der Tasche hat, akzeptieren Kunden keine klobigen, grauen Industriesteuerungen mehr. Das HMI (Human Machine Interface) ist das Erste, was Ihr Kunde sieht – und oft der entscheidende Faktor beim Kaufentscheid. In Chemnitz, dem Herz des sächsischen Maschinenbaus, helfe ich Ihnen, Ihre technologische Marktführerschaft auch visuell und funktional zu unterstreichen.",
+        introText: "In einer Welt, in der jeder ein iPhone in der Tasche hat, akzeptieren Kunden keine klobigen, grauen Industriesteuerungen mehr. Das <strong>HMI (Human Machine Interface)</strong> ist das Erste, was Ihr Kunde sieht – und oft der entscheidende Faktor beim Kaufentscheid. In Chemnitz, dem Herz des <strong>sächsischen Maschinenbaus</strong>, helfe ich Ihnen, Ihre technologische Marktführerschaft auch visuell und funktional zu unterstreichen.",
         sections: [
             {
                 title: "Psychologie der Bedienung: Fehler vermeiden",
@@ -276,7 +276,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/opc-ua-security.png",
         keywords: ["OPC UA", "rRPC", "SPS Anbindung", "IOT Anbindung", "Rostock", "Industrie 4.0", "Edge Computing", "Codesys", "Beckhoff"],
         metaDescription: "Verbinden Sie Ihre SPS oder ihr IOT Device mit der Cloud. Experte für OPC UA, gRPC und Hochsprachen-Programmierung in Rostock. Jetzt Datenpotenziale nutzen.",
-        introText: "Die SPS ist der Nerv der Maschine, aber Software ist das Gehirn. In der maritimen Industrie und Fertigung rund um Rostock wird noch viel Potenzial verschenkt, weil Daten in der Steuerung 'gefangen' sind. Ich baue die digitalen Brücken. Ich sorge dafür, dass Ihre Siemens oder Beckhoff Steuerung sicher alle Sprachen der Industriekommunikation spricht (auch proprietäre Protokolle!)– ohne die Echtzeit-Prozesse zu gefährden.",
+        introText: "Die <strong>SPS</strong> ist der Nerv der Maschine, aber <strong>Software</strong> ist das Gehirn. In der <strong>maritimen Industrie</strong> und Fertigung rund um Rostock wird noch viel Potenzial verschenkt, weil Daten in der Steuerung 'gefangen' sind. Ich baue die digitalen Brücken. Ich sorge dafür, dass Ihre Siemens oder Beckhoff Steuerung sicher alle Sprachen der <strong>Industriekommunikation</strong> spricht (auch proprietäre Protokolle!)– ohne die Echtzeit-Prozesse zu gefährden.",
         sections: [
             {
                 title: "OPC UA: Der Standard für Interoperabilität",
@@ -337,6 +337,104 @@ export const landingPages: Record<string, LandingPageData> = {
             {
                 question: "Können auch Devices mit USB-Schnittelle angebunden werden?",
                 answer: "Die USB-Schnittelle ist prinzipiell auf Grund der mechanischen Eigenschaften des Steckersystems und aufgrund ihrer schlechten Reconnect-Eigenschaften für Automatisierungslösungen nur bedingt geeignet. Bei Geräten, für die es nur die USB-Schnittstelle gibt, eignet sich ein kleiner IPC zur Anbindung an die SPS über OPC UA, oder die Architektur kann so gewählt werden, dass die Daten direkt in den IPC der HMI gelangen und von dort zur SPS."
+            }
+        ]
+    },
+
+    "oberkochen": {
+        slug: "softwareentwicklung-optik-oberkochen-stuttgart",
+        title: "Softwareentwicklung für Optik & Halbleiter in Oberkochen, Aalen & Stuttgart",
+        subtitle: "Präzision trifft Code. Maßgeschneiderte .NET & C# Lösungen für die High-Tech Region Baden-Württemberg. Von EUV-Lithographie bis zur Laborautomatisierung.",
+        heroImage: "/images/semiconductor-infographic.png",
+        keywords: ["Oberkochen", "Aalen", "Stuttgart", "Optik", "EUV Lithographie", "Reinraum", "C#", ".NET", "OPC UA", "Scrum", "Azure DevOps"],
+        metaDescription: "Spezialisierter Software-Ingenieur für die Optik-Industrie in Baden-Württemberg (Oberkochen, Stuttgart). Experte für EUV, Wafer-Steuerung, OPC UA und Hardware-Integration (ACS, PI, Basler).",
+        introText: "Baden-Württemberg, und speziell die Achse Stuttgart-Aalen-Oberkochen, ist der Maschinenraum der globalen High-Tech Industrie. Hier, wo Weltmarktführer wie die Carl-Zeiss-SMT an der Zukunft der Mikrochips durch EUV (Extreme Ultraviolet Lithographie) arbeiten, gelten andere Maßstäbe. Software darf hier nicht nur 'funktionieren'. Sie muss so präzise sein wie die Objektive, die sie steuert, und so rein wie der Cleanroom, in dem sie läuft. Als erfahrener Software-Ingenieur unterstütze ich Teams in dieser Region dabei, komplexe physikalische Prozesse in sauberen, wartbaren Code (Clean Code) zu übersetzen. Ich kenne die Herausforderungen von multidisziplinären Teams und integriere mich nahtlos in Ihre Scrum-Prozesse via Azure DevOps.",
+        sections: [
+            {
+                title: "Reinraum-Software: Wenn jeder Nanometer zählt",
+                content: "<p>Die Entwicklung softwaregestützter Systeme für die <strong>Optik-Fertigung</strong> und <strong>EUV-Lithographie</strong> erfordert ein tiefes Verständnis für die physikalischen Randbedingungen. Es geht nicht nur um Algorithmen, sondern um die direkte Interaktion mit hochsensibler Hardware im Reinraum.</p><p>Meine Expertise umfasst die komplette vertikale Integration:</p><h4 class='text-lg font-bold mt-4 mb-2'>Antriebstechnik & Motion Control</h4><p>Präzision beginnt bei der Bewegung. Ich besitze umfangreiche Erfahrung in der Anbindung und Steuerung von Hochleistungs-Antrieben und Piezo-Systemen führender Hersteller, die in der Halbleiterindustrie Standard sind:</p><ul class='list-disc pl-5 mt-2 mb-4 space-y-1'><li><strong>ACS Motion Control:</strong> Komplexe Multi-Axis-Synchronisationen.</li><li><strong>SmarAct & PI-Micos:</strong> Nanometergenaue Positionierung für optische Gitter und Spiegel.</li><li><strong>Physik Instrumente (PI) & Newport:</strong> Integration von Hexapoden und Fast-Steering-Mirrors.</li><li><strong>Aerotech & Galil:</strong> Hochdynamische Bahnen für Wafer-Stages.</li></ul><p>Dabei achte ich penibel auf Latenzzeiten und Jitter, um die geforderte Systemperformance sicherzustellen.</p>",
+                infographic: "/images/cleanroom-robot.png",
+                infographicAlt: "Ingenieur im Reinraum bei der Arbeit an einer EUV-Anlage, Konzentration auf Code und Hardware",
+                cta: {
+                    headline: "Performance-Probleme bei der Achs-Synchronisation?",
+                    text: "Ruckelnde Achsen im Nanometerbereich zerstören Ihr Messergebnis. Lassen Sie uns Ihre Motion-Control-Architektur analysieren.",
+                    btnText: "Motion-Control Audit"
+                }
+            },
+            {
+                title: "Sensorik & Messtechnik: Das Auge der Maschine",
+                content: "<p>In der Region Oberkochen/Aalen dreht sich alles um Licht. Um dieses zu messen und zu manipulieren, integriere ich eine breite Palette an High-End Sensorik direkt in Ihre .NET Applikationen:</p><ul class='list-disc pl-5 mt-4 mb-4 space-y-2'><li><strong>Laser-Leistungsmessung:</strong> Integration von <strong>Ophir</strong> und <strong>Thorlabs</strong> Power-Metern zur Strahlanalyse in Echtzeit.</li><li><strong>Präzisions-Messtechnik:</strong> Einbindung von <strong>Keithley</strong> Sourceometern und <strong>Keyence</strong> Laserscannern für die Qualitätskontrolle.</li><li><strong>Frequenz-Messung:</strong> Ansteuerung von <strong>HighFinesse</strong> Wellenlängenmessgeräten für tunable Laser.</li></ul><p>Diese Daten werden nicht nur erfasst, sondern oft direkt mit Positionsdaten der Antriebe korreliert (Triggering), um hochauflösende Mappings der optischen Oberflächen zu erstellen.</p>",
+                infographic: "/images/sensor-calibration.png",
+                infographicAlt: "Schematische Darstellung der Sensor-Integration in einem optischen System"
+            },
+            {
+                title: "Vision Systems & Kamera-Integration",
+                content: "<p>Neben punktuellen Sensoren spielen bildgebende Verfahren eine zentrale Rolle. Ich entwickle performante Vision-Pipelines, die Bilddaten direkt von der Hardware abholen (Zero-Copy) und verarbeiten.</p><p class='mb-2'>Unterstützte Kamera-Interfaces und Hersteller:</p><ul class='list-disc pl-5 space-y-1 mb-4'><li><strong>Standards:</strong> GigE Vision, USB3 Vision, CameraLink, CoaXPress.</li><li><strong>Hersteller:</strong> <strong>Basler</strong> (Pylon), <strong>Teledyne Dalsa</strong>, <strong>Hamamatsu</strong> (für Low-Light/Wissenschaft), <strong>DataRay</strong> (Beam-Profiling).</li><li><strong>Framegrabber:</strong> <strong>Matrox</strong> (MIL) und <strong>Pleora (eBus)</strong> für High-Speed Applikationen.</li></ul><p>Die Einbindung erfolgt modular, sodass Sie Kameras verschiedener Hersteller austauschen können, ohne die gesamte Applikationslogik neu schreiben zu müssen.</p>",
+                infographic: "/images/microscope-analysis.png",
+                infographicAlt: "Analyse-Software Oberfläche mit Kamerabild und Histogramm"
+            },
+            {
+                title: "Integration & Steuerung: Das große Ganze",
+                content: "<p>Kein System ist eine Insel. Die Integration in die bestehende Fabrik-Infrastruktur ist entscheidend für den Erfolg von Industrie 4.0 Projekten.</p><h4 class='text-lg font-bold mt-4 mb-2'>SPS & Leitsysteme</h4><p>Ich verbinde Ihre PC-basierte Messsoftware robust mit der Welt der Speicherprogrammierbaren Steuerungen (SPS). Ob <strong>Siemens S7</strong> (via TIA Portal / S7.Net), <strong>Beckhoff TwinCAT</strong> oder Sicherheitssteuerungen von <strong>Pilz</strong> – der Handshake zwischen Windows und SPS muss sitzen.</p><h4 class='text-lg font-bold mt-4 mb-2'>Konnektivität & Standards</h4><p>Hier setze ich konsequent auf offene Standards statt proprietärer Insel-Lösungen:</p><ul class='list-disc pl-5 mt-2 mb-4 space-y-2'><li><strong>OPC UA:</strong> Der Gold-Standard für die vertikale Integration. Ich implementiere Clients und Server, die komplexe Datenstrukturen (nicht nur flache Tags) austauschen.</li><li><strong>Matlab-Einbindung:</strong> Oft entstehen Algorithmen in der Vorausentwicklung in Matlab. Ich integriere kompilierte Matlab-DLLs oder nutze die Matlab-Engine API, um diese Algorithmen performant in der C# Produktions-Software auszuführen.</li></ul>",
+                infographic: "/images/opc-ua-security.png",
+                infographicAlt: "Netzwerk-Diagramm: Verbindung von Sensoren, SPS und Cloud via OPC UA",
+                cta: {
+                    headline: "Schnittstellen-Chaos?",
+                    text: "Sprechen Ihre Anlagen verschiedene Sprachen? Ich etabliere eine einheitliche Kommunikations-Architektur auf Basis von OPC UA.",
+                    btnText: "Schnittstellen-Beratung"
+                }
+            },
+            {
+                title: "Modernes Software-Engineering: Clean Code & DevOps",
+                content: "<p>Die Zeiten, in denen eine Software 'auf Zuruf' am Gerät gehackt wurde, sind vorbei. In regulierten Umgebungen wie der Medizintechnik oder der Halbleiterindustrie ist der Prozess genauso wichtig wie das Ergebnis.</p><p>Ich bringe moderne Software-Entwicklungsmethoden in Ihr Ingenieurs-Team:</p><ul class='list-disc pl-5 mt-4 space-y-2'><li><strong>Versionskontrolle (Git):</strong> Saubere History, Feature-Branches und das 'Fork & Pull Request' Prinzip ermöglichen reviewbaren Code.</li><li><strong>Clean Code:</strong> Code ist zum Lesen da. Ich schreibe Software so, dass Ihr Team sie auch in 5 Jahren noch versteht und warten kann.</li><li><strong>Azure DevOps & Scrum:</strong> Transparenz durch Backlogs, Sprints und CI/CD Pipelines. Jeder Commit wird automatisch gebaut und getestet.</li><li><strong>Automated Testing:</strong> Unit-Tests für Logik und Hardware-Simulation (Mocking) für Integrationstests ohne physisches Gerät.</li></ul><p>Dieser Ansatz reduziert die 'Technical Debt' massiv und sorgt für ruhige Nächte vor dem Release.</p>",
+                infographic: "/images/mvvm-architecture.png",
+                infographicAlt: "Darstellung eines DevOps Zyklus mit Git Branching und CI/CD Pipeline"
+            }
+        ],
+        tableData: {
+            title: "Hardware-Unterstützung im Überblick",
+            headers: ["Kategorie", "Hersteller/Marken", "Integrations-Tiefe"],
+            rows: [
+                ["Antriebe & Motion", "ACS, SmarAct, PI-Micos, Galil, Newport, Aerotech", "Tief: Direkte DLL/API Einbindung, Synchronisation, Triggering"],
+                ["Sensoren & Laser", "Ophir, Thorlabs, Keyence, Keithley, HighFinesse", "Mittel: Auslesen von Messwerten, Konfiguration, Stream-Recording"],
+                ["Kameras & Vision", "Basler, DataRay, Dalsa, Hamamatsu, Pleora, Matrox", "Hoch: Zero-Copy Grabbing, GPU-Processing, Overlay-Rendering"],
+                ["Steuerung (PLC)", "Siemens S7, Keysight, Pilz, Beckhoff", "Robust: OPC UA, ADS, TCP/IP Socket, Modbus"],
+                ["Messgeräte", "Oszilloskope (Keysight/Tektronix), Spektrometer", "VISA / SCPI Kommandos, IVI Treiber"]
+            ]
+        },
+        features: [
+            {
+                title: "Regionale Nähe",
+                description: "Vor-Ort Präsenz in Oberkochen, Aalen und Stuttgart für Inbetriebnahme und Tests an der Maschine.",
+                icon: "fa-map-marker-alt"
+            },
+            {
+                title: "Physik & Code",
+                description: "Ich verstehe nicht nur C#, sondern auch Strahlengang, Interferenz und Beugung. Das erleichtert die Kommunikation mit Ihren Physikern.",
+                icon: "fa-atom"
+            },
+            {
+                title: "Legacy to Future",
+                description: "Sichere Migration von alten VB6/LabVIEW Projekten auf modernes .NET 8 / WPF.",
+                icon: "fa-history"
+            }
+        ],
+        faq: [
+            {
+                question: "Arbeiten Sie auch mit bestehenden Frameworks?",
+                answer: "Ja. Wenn Sie bereits Standards wie 'TwinCAT Automation Interface' oder proprietäre Firmen-Frameworks nutzen, arbeite ich mich dort schnell ein. Ich erfinde das Rad nicht neu, wenn es gut läuft."
+            },
+            {
+                question: "Können Sie Matlab-Algorithmen in C# nutzen?",
+                answer: "Definitiv. Das ist ein Standard-Szenario. Matlab für den Algorithmus, C# für die performante GUI und Maschinen-Steuerung. Die Anbindung erfolgt über den Matlab Compiler SDK oder native DLLs."
+            },
+            {
+                question: "Wie garantieren Sie Code-Qualität?",
+                answer: "Durch strikte Einhaltung von Clean Code Prinzipien (SOLID), Code Reviews via Pull Requests (Git/Azure DevOps) und automatisierte Tests. Qualität entsteht nicht durch Testen am Ende, sondern durch Konstruktion von Anfang an."
+            },
+            {
+                question: "Sind Sie auch in München oder Jena verfügbar?",
+                answer: "Mein Fokus liegt auf Baden-Württemberg und Sachsen/Thüringen. Für spannende Projekte in Jena (siehe unsere <a href='/laborautomatisierung-software-jena' class='text-brand-primary underline'>Jena-Expertise</a>) oder München bin ich aber ebenfalls offen, meist hybrid mit Remote-Anteilen."
             }
         ]
     }
