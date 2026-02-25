@@ -419,7 +419,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 icon: "fa-history"
             }
         ],
-        faq: [
+        faq: 
+		[
             {
                 question: "Arbeiten Sie auch mit bestehenden Frameworks?",
                 answer: "Ja. Ich bin es gewohnt mich schnell in proprietäre Firmen-Frameworks einzuarbeiten und diese effektiv zu nutzen. Ich erfinde das Rad nicht neu, wenn es gut läuft."
@@ -434,7 +435,7 @@ export const landingPages: Record<string, LandingPageData> = {
             },
             {
                 question: "Haben Sie eine eigene Codebasis?",
-                answer: "Mit den Jahren hat sich bei mir ein kleines Framework entwickelt, welches ich kostenlos und Lizenzfrei zur Verfügung stellen kann. Damit sind häufig wiederkehrende Standardaufgaben in der Automatisierung wie das MVVM-Pattern für WPF, Statemachines, Digitale Filter, PID-Regler, ein Log- und Messaging-System, OPC-UA Client abgedeckt."
+                answer: "Mit den Jahren hat sich bei mir ein kleines Framework entwickelt, welches ich kostenlos und lizenzfrei zur Verfügung stellen kann. Damit sind häufig wiederkehrende Standardaufgaben in der Automatisierung wie das MVVM-Pattern für WPF, Statemachines, Digitale Filter, PID-Regler, ein Log- und Messaging-System, OPC-UA Client abgedeckt."
             }
         ]
     }
