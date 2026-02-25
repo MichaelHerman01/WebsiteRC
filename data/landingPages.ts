@@ -348,7 +348,7 @@ export const landingPages: Record<string, LandingPageData> = {
         heroImage: "/images/semiconductor-infographic.png",
         keywords: ["Oberkochen", "Aalen", "Stuttgart", "Optik", "EUV Lithographie", "Reinraum", "C#", ".NET", "OPC UA", "Scrum", "Azure DevOps"],
         metaDescription: "Spezialisierter Software-Ingenieur für die Optik-Industrie in Baden-Württemberg (Oberkochen, Stuttgart). Experte für EUV, Wafer-Steuerung, OPC UA und Hardware-Integration (ACS, PI, Basler).",
-        introText: "Baden-Württemberg, und speziell die Achse Stuttgart-Aalen-Oberkochen, ist der Maschinenraum der globalen High-Tech Industrie. Hier, wo Weltmarktführer wie die Carl-Zeiss-SMT an der Zukunft der Mikrochips durch EUV (Extreme Ultraviolet Lithographie) arbeiten, gelten andere Maßstäbe. Software darf hier nicht nur 'funktionieren'. Sie muss so präzise sein wie die Objektive, die sie steuert, und so rein wie der Cleanroom, in dem sie läuft. Als erfahrener Software-Ingenieur unterstütze ich Teams in dieser Region dabei, komplexe physikalische Prozesse in sauberen, wartbaren Code (Clean Code) zu übersetzen. Ich kenne die Herausforderungen von multidisziplinären Teams und integriere mich nahtlos in Ihre Scrum-Prozesse via Azure DevOps.",
+        introText: "Baden-Württemberg, und speziell die Achse Stuttgart-Aalen-Oberkochen, ist der Maschinenraum der globalen High-Tech Industrie. Hier, wo Weltmarktführer wie die Carl-Zeiss-SMT an der Zukunft der Mikrochips durch EUV (Extreme Ultraviolet Lithographie) arbeiten, gelten andere Maßstäbe. Software darf hier nicht nur 'funktionieren'. Sie muss so präzise sein wie die Objektive, die sie steuert, und so rein wie der Cleanroom, in dem sie läuft. Als erfahrener Software-Ingenieur unterstütze ich Teams in dieser Region dabei, komplexe physikalische Prozesse in sauberen, wartbaren Code (Clean Code) zu übersetzen. Ich kenne die Herausforderungen von multidisziplinären Teams und integriere mich nahtlos in Ihre Scrum-Prozesse via Azure DevOps. Einige Jahre durfte ich mein Know-How schon bei der Carl-Zeiss SMT in Oberkochen mit einbringen. Dort wurde und wird meine Mitarbeit geschätzt. Für mich persönlich war die Mitarbeit an Projekten in der EUV-Litographie ein Glanzpukt meiner Tätigkeit, aber auch bei der Programmierung von PC-Gestützter Messtechnik für Objektive konnte ich die Zusammenarbeit im Team unter höchsten Ansprüchen schätzen lernen.",
         sections: [
             {
                 title: "Reinraum-Software: Wenn jeder Nanometer zählt",
@@ -356,14 +356,14 @@ export const landingPages: Record<string, LandingPageData> = {
                 infographic: "/images/cleanroom-robot.png",
                 infographicAlt: "Ingenieur im Reinraum bei der Arbeit an einer EUV-Anlage, Konzentration auf Code und Hardware",
                 cta: {
-                    headline: "Performance-Probleme bei der Achs-Synchronisation?",
-                    text: "Ruckelnde Achsen im Nanometerbereich zerstören Ihr Messergebnis. Lassen Sie uns Ihre Motion-Control-Architektur analysieren.",
-                    btnText: "Motion-Control Audit"
+                    headline: "Festgefahrenes Automatisierungsprojekt oder unzuverlässige Achsansteuerung?",
+                    text: "Ihr Automatisierungsprojekt kommt nicht voran oder die Achsen in Ihrem Projekt verhalten sich unzuverlässig. Lassen Sie uns die Anbindung Ihrer Motion-Control-Architektur analysieren.",
+                    btnText: "Automatisierungsprojekt Audit"
                 }
             },
             {
                 title: "Sensorik & Messtechnik: Das Auge der Maschine",
-                content: "<p>In der Region Oberkochen/Aalen dreht sich alles um Licht. Um dieses zu messen und zu manipulieren, integriere ich eine breite Palette an High-End Sensorik direkt in Ihre .NET Applikationen:</p><ul class='list-disc pl-5 mt-4 mb-4 space-y-2'><li><strong>Laser-Leistungsmessung:</strong> Integration von <strong>Ophir</strong> und <strong>Thorlabs</strong> Power-Metern zur Strahlanalyse in Echtzeit.</li><li><strong>Präzisions-Messtechnik:</strong> Einbindung von <strong>Keithley</strong> Sourceometern und <strong>Keyence</strong> Laserscannern für die Qualitätskontrolle.</li><li><strong>Frequenz-Messung:</strong> Ansteuerung von <strong>HighFinesse</strong> Wellenlängenmessgeräten für tunable Laser.</li></ul><p>Diese Daten werden nicht nur erfasst, sondern oft direkt mit Positionsdaten der Antriebe korreliert (Triggering), um hochauflösende Mappings der optischen Oberflächen zu erstellen.</p>",
+                content: "<p>In der Region Oberkochen/Aalen dreht sich alles um Licht und Präzision. Um dieses zu messen und zu manipulieren, integriere ich eine breite Palette an High-End Sensorik direkt in Ihre .NET Applikationen:</p><ul class='list-disc pl-5 mt-4 mb-4 space-y-2'><li><strong>Laser-Leistungsmessung:</strong> Integration von <strong>Ophir</strong> und <strong>Thorlabs</strong> Power-Metern zur Strahlanalyse in Echtzeit.</li><li><strong>Präzisions-Messtechnik:</strong> Einbindung von <strong>Keithley</strong> Sourceometern und <strong>Keyence</strong> Laserscannern für die Qualitätskontrolle.</li><li><strong>Frequenz-Messung:</strong> Ansteuerung von <strong>HighFinesse</strong> Wellenlängenmessgeräten für tunable Laser.</li></ul><p>Diese Daten werden nicht nur erfasst, sondern oft direkt mit Positionsdaten der Antriebe korreliert (Triggering), um hochauflösende Mappings der optischen Oberflächen zu erstellen.</p>",
                 infographic: "/images/sensor-calibration.png",
                 infographicAlt: "Schematische Darstellung der Sensor-Integration in einem optischen System"
             },
@@ -405,12 +405,12 @@ export const landingPages: Record<string, LandingPageData> = {
         features: [
             {
                 title: "Regionale Nähe",
-                description: "Vor-Ort Präsenz in Oberkochen, Aalen und Stuttgart für Inbetriebnahme und Tests an der Maschine.",
+                description: "Vor-Ort Präsenz in Oberkochen, Aalen und Stuttgart für die enge Zusammenarbeit im Team, Inbetriebnahme und Tests an der Maschine.",
                 icon: "fa-map-marker-alt"
             },
             {
                 title: "Physik & Code",
-                description: "Ich verstehe nicht nur C#, sondern auch Strahlengang, Interferenz und Beugung. Das erleichtert die Kommunikation mit Ihren Physikern.",
+                description: "Ich verstehe nicht nur C#, sondern auch Strahlengang, Interferenz und Beugung, Bewegungsteuerung, die besonderheiten komplexer Sensoren und die dahinter liegende Physik und Methematik. Das erleichtert die Kommunikation mit Ihren Physikern.",
                 icon: "fa-atom"
             },
             {
@@ -422,7 +422,7 @@ export const landingPages: Record<string, LandingPageData> = {
         faq: [
             {
                 question: "Arbeiten Sie auch mit bestehenden Frameworks?",
-                answer: "Ja. Wenn Sie bereits Standards wie 'TwinCAT Automation Interface' oder proprietäre Firmen-Frameworks nutzen, arbeite ich mich dort schnell ein. Ich erfinde das Rad nicht neu, wenn es gut läuft."
+                answer: "Ja. Ich bin es gewohnt mich schnell in proprietäre Firmen-Frameworks einzuarbeiten und diese effektiv zu nutzen. Ich erfinde das Rad nicht neu, wenn es gut läuft."
             },
             {
                 question: "Können Sie Matlab-Algorithmen in C# nutzen?",
@@ -433,8 +433,8 @@ export const landingPages: Record<string, LandingPageData> = {
                 answer: "Durch strikte Einhaltung von Clean Code Prinzipien (SOLID), Code Reviews via Pull Requests (Git/Azure DevOps) und automatisierte Tests. Qualität entsteht nicht durch Testen am Ende, sondern durch Konstruktion von Anfang an."
             },
             {
-                question: "Sind Sie auch in München oder Jena verfügbar?",
-                answer: "Mein Fokus liegt auf Baden-Württemberg und Sachsen/Thüringen. Für spannende Projekte in Jena (siehe unsere <a href='/laborautomatisierung-software-jena' class='text-brand-primary underline'>Jena-Expertise</a>) oder München bin ich aber ebenfalls offen, meist hybrid mit Remote-Anteilen."
+                question: "Haben Sie eine eigene Codebasis?",
+                answer: "Mit den Jahren hat sich bei mir ein kleines Framework entwickelt, welches ich kostenlos und Lizenzfrei zur Verfügung stellen kann. Damit sind häufig wiederkehrende Standardaufgaben in der Automatisierung wie das MVVM-Pattern für WPF, Statemachines, Digitale Filter, PID-Regler, ein Log- und Messaging-System, OPC-UA Client abgedeckt."
             }
         ]
     }
